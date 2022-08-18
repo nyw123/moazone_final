@@ -1,0 +1,92 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+  generateName: randomforest-classifier-
+  annotations: {pipelines.kubeflow.org/kfp_sdk_version: 1.8.13, pipelines.kubeflow.org/pipeline_compilation_time: '2022-08-18T12:02:47.269979',
+    pipelines.kubeflow.org/pipeline_spec: '{"name": "RandomForest_Classifier"}'}
+  labels: {pipelines.kubeflow.org/kfp_sdk_version: 1.8.13}
+spec:
+  entrypoint: randomforest-classifier
+  templates:
+  - name: make-x
+    container:
+      args: ['----output-paths', /tmp/outputs/Output/data]
+      command:
+      - sh
+      - -c
+      - (PIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet --no-warn-script-location
+        'pandas==1.0.5' 'scikit-learn==0.22.1' || PIP_DISABLE_PIP_VERSION_CHECK=1
+        python3 -m pip install --quiet --no-warn-script-location 'pandas==1.0.5' 'scikit-learn==0.22.1'
+        --user) && "$0" "$@"
+      - sh
+      - -ec
+      - |
+        program_path=$(mktemp)
+        printf "%s" "$0" > "$program_path"
+        python3 -u "$program_path" "$@"
+      - "def make_x() :\n    import pandas as pd\n    from sklearn.model_selection\
+        \ import train_test_split\n    from sklearn.ensemble import RandomForestClassifier\n\
+        \    from sklearn import metrics\n\n    train = pd.read_csv('https://raw.githubusercontent.com/nyw123/moazone_final/master/%EB%85%B8%EC%97%B0%EC%9A%B0/train.csv')\n\
+        \    train = train.drop(['index'], axis=1)\n    train.fillna('NAN', inplace=True)\
+        \ \n    x = train.iloc[:,:-1]\n    y = train.iloc[:,-1]\n    x = pd.get_dummies(x,\
+        \ dummy_na=True)\n    x_train, x_test, y_train, y_test = train_test_split(x,\
+        \ y, test_size=0.3,random_state=7)\n\n    forest = RandomForestClassifier(n_estimators=100)\n\
+        \    forest.fit(x_train, y_train)\n    y_pred = forest.predict(x_test)\n\n\
+        \    import pandas as pd\n    from sklearn import metrics\n    acc = metrics.accuracy_score(y_test,\
+        \ y_pred)\n    return acc\n\ndef _serialize_float(float_value: float) -> str:\n\
+        \    if isinstance(float_value, str):\n        return float_value\n    if\
+        \ not isinstance(float_value, (float, int)):\n        raise TypeError('Value\
+        \ \"{}\" has type \"{}\" instead of float.'.format(\n            str(float_value),\
+        \ str(type(float_value))))\n    return str(float_value)\n\nimport argparse\n\
+        _parser = argparse.ArgumentParser(prog='Make x', description='')\n_parser.add_argument(\"\
+        ----output-paths\", dest=\"_output_paths\", type=str, nargs=1)\n_parsed_args\
+        \ = vars(_parser.parse_args())\n_output_files = _parsed_args.pop(\"_output_paths\"\
+        , [])\n\n_outputs = make_x(**_parsed_args)\n\n_outputs = [_outputs]\n\n_output_serializers\
+        \ = [\n    _serialize_float,\n\n]\n\nimport os\nfor idx, output_file in enumerate(_output_files):\n\
+        \    try:\n        os.makedirs(os.path.dirname(output_file))\n    except OSError:\n\
+        \        pass\n    with open(output_file, 'w') as f:\n        f.write(_output_serializers[idx](_outputs[idx]))\n"
+      image: python:3.7
+    outputs:
+      artifacts:
+      - {name: make-x-Output, path: /tmp/outputs/Output/data}
+    metadata:
+      labels:
+        pipelines.kubeflow.org/kfp_sdk_version: 1.8.13
+        pipelines.kubeflow.org/pipeline-sdk-type: kfp
+        pipelines.kubeflow.org/enable_caching: "true"
+      annotations: {pipelines.kubeflow.org/component_spec: '{"implementation": {"container":
+          {"args": ["----output-paths", {"outputPath": "Output"}], "command": ["sh",
+          "-c", "(PIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet --no-warn-script-location
+          ''pandas==1.0.5'' ''scikit-learn==0.22.1'' || PIP_DISABLE_PIP_VERSION_CHECK=1
+          python3 -m pip install --quiet --no-warn-script-location ''pandas==1.0.5''
+          ''scikit-learn==0.22.1'' --user) && \"$0\" \"$@\"", "sh", "-ec", "program_path=$(mktemp)\nprintf
+          \"%s\" \"$0\" > \"$program_path\"\npython3 -u \"$program_path\" \"$@\"\n",
+          "def make_x() :\n    import pandas as pd\n    from sklearn.model_selection
+          import train_test_split\n    from sklearn.ensemble import RandomForestClassifier\n    from
+          sklearn import metrics\n\n    train = pd.read_csv(''https://raw.githubusercontent.com/nyw123/moazone_final/master/%EB%85%B8%EC%97%B0%EC%9A%B0/train.csv'')\n    train
+          = train.drop([''index''], axis=1)\n    train.fillna(''NAN'', inplace=True)
+          \n    x = train.iloc[:,:-1]\n    y = train.iloc[:,-1]\n    x = pd.get_dummies(x,
+          dummy_na=True)\n    x_train, x_test, y_train, y_test = train_test_split(x,
+          y, test_size=0.3,random_state=7)\n\n    forest = RandomForestClassifier(n_estimators=100)\n    forest.fit(x_train,
+          y_train)\n    y_pred = forest.predict(x_test)\n\n    import pandas as pd\n    from
+          sklearn import metrics\n    acc = metrics.accuracy_score(y_test, y_pred)\n    return
+          acc\n\ndef _serialize_float(float_value: float) -> str:\n    if isinstance(float_value,
+          str):\n        return float_value\n    if not isinstance(float_value, (float,
+          int)):\n        raise TypeError(''Value \"{}\" has type \"{}\" instead of
+          float.''.format(\n            str(float_value), str(type(float_value))))\n    return
+          str(float_value)\n\nimport argparse\n_parser = argparse.ArgumentParser(prog=''Make
+          x'', description='''')\n_parser.add_argument(\"----output-paths\", dest=\"_output_paths\",
+          type=str, nargs=1)\n_parsed_args = vars(_parser.parse_args())\n_output_files
+          = _parsed_args.pop(\"_output_paths\", [])\n\n_outputs = make_x(**_parsed_args)\n\n_outputs
+          = [_outputs]\n\n_output_serializers = [\n    _serialize_float,\n\n]\n\nimport
+          os\nfor idx, output_file in enumerate(_output_files):\n    try:\n        os.makedirs(os.path.dirname(output_file))\n    except
+          OSError:\n        pass\n    with open(output_file, ''w'') as f:\n        f.write(_output_serializers[idx](_outputs[idx]))\n"],
+          "image": "python:3.7"}}, "name": "Make x", "outputs": [{"name": "Output",
+          "type": "Float"}]}', pipelines.kubeflow.org/component_ref: '{}'}
+  - name: randomforest-classifier
+    dag:
+      tasks:
+      - {name: make-x, template: make-x}
+  arguments:
+    parameters: []
+  serviceAccountName: pipeline-runner
