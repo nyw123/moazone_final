@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T05:04:41.487Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="W_QnMcQvdZS2fBFdLmOj" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-23T02:03:11.176Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="4wN3Zpl_t8-HnXj71D7y" version="20.2.4" type="github">
   <diagram id="Gc7l7-gy1XUnMGawxhDr" name="페이지-1">
-    <mxGraphModel dx="1892" dy="1128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="901" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,13 +37,13 @@
         <mxCell id="RmK6DByKgA-kRegOImkC-10" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/VM_Linux.svg;" parent="1" vertex="1">
           <mxGeometry x="170" y="341" width="50" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="RmK6DByKgA-kRegOImkC-11" value="AWS EC2&lt;br&gt;Amazon Linux&lt;br&gt;Tokyo" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="RmK6DByKgA-kRegOImkC-11" value="AWS EC2&lt;br&gt;Amazon Linux&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="223.6" y="209" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RmK6DByKgA-kRegOImkC-12" value="GCP Compute Engine&lt;br&gt;CentOS&lt;br&gt;Oregon" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="224.6" y="279" width="126.4" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GZmUXPdcQSyBrFpp-1HJ-1" value="Azure Virtual Machines&lt;br&gt;Window Server&lt;br&gt;London" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="GZmUXPdcQSyBrFpp-1HJ-1" value="Azure Virtual Machines&lt;br&gt;Window Server&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="224.6" y="135" width="126.4" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GZmUXPdcQSyBrFpp-1HJ-2" value="Openstack&lt;br&gt;CentOS&lt;br&gt;London" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -118,10 +118,10 @@
         <mxCell id="GZmUXPdcQSyBrFpp-1HJ-42" value="Database Subnets" style="shape=mxgraph.ibm.box;prType=subnet;fontStyle=0;verticalAlign=top;align=left;spacingLeft=32;spacingTop=4;fillColor=#E6F0E2;rounded=0;whiteSpace=wrap;html=1;strokeColor=#00882B;strokeWidth=1;dashed=0;container=1;spacing=-4;collapsible=0;expand=0;recursiveResize=0;" parent="1" vertex="1">
           <mxGeometry x="570" y="107" width="350" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="usIRA-kO4V7hB5ve2QcD-1" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="GZmUXPdcQSyBrFpp-1HJ-42">
+        <mxCell id="usIRA-kO4V7hB5ve2QcD-1" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" parent="GZmUXPdcQSyBrFpp-1HJ-42" vertex="1">
           <mxGeometry x="30" y="58" width="62.52" height="76" as="geometry" />
         </mxCell>
-        <mxCell id="usIRA-kO4V7hB5ve2QcD-2" value="S3" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="GZmUXPdcQSyBrFpp-1HJ-42">
+        <mxCell id="usIRA-kO4V7hB5ve2QcD-2" value="S3" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="GZmUXPdcQSyBrFpp-1HJ-42" vertex="1">
           <mxGeometry x="50" y="134" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GZmUXPdcQSyBrFpp-1HJ-47" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.route_53;fillColor=#F58536;gradientColor=none;" parent="1" vertex="1">
