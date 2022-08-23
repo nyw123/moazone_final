@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T03:01:28.987Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="fuQaJY4OXgBm-Jkgiyfg" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-23T03:04:54.481Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="E42Nk_tSr-P2K9nOENDs" version="20.2.3" type="github">
   <diagram id="Gc7l7-gy1XUnMGawxhDr" name="페이지-1">
     <mxGraphModel dx="1221" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,11 +10,8 @@
         <mxCell id="GZmUXPdcQSyBrFpp-1HJ-42" value="Database Subnets" style="shape=mxgraph.ibm.box;prType=subnet;fontStyle=0;verticalAlign=top;align=left;spacingLeft=32;spacingTop=4;fillColor=#E6F0E2;rounded=0;whiteSpace=wrap;html=1;strokeColor=#00882B;strokeWidth=1;dashed=0;container=1;spacing=-4;collapsible=0;expand=0;recursiveResize=0;" parent="1" vertex="1">
           <mxGeometry x="570" y="107" width="350" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="usIRA-kO4V7hB5ve2QcD-1" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" parent="GZmUXPdcQSyBrFpp-1HJ-42" vertex="1">
+        <mxCell id="usIRA-kO4V7hB5ve2QcD-1" value="S3" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" parent="GZmUXPdcQSyBrFpp-1HJ-42" vertex="1">
           <mxGeometry x="30" y="58" width="62.52" height="76" as="geometry" />
-        </mxCell>
-        <mxCell id="usIRA-kO4V7hB5ve2QcD-2" value="S3" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="GZmUXPdcQSyBrFpp-1HJ-42" vertex="1">
-          <mxGeometry x="50" y="134" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Q9xnJySd4TzFd6jFLzlh-12" value="RDS" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="GZmUXPdcQSyBrFpp-1HJ-42">
           <mxGeometry x="145" y="65" width="60" height="62" as="geometry" />
