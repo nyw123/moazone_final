@@ -1,0 +1,54 @@
+artifact_path: model
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.7.10
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.0.2
+mlflow_version: 1.28.0
+model_uuid: dd6f8b031ab24ad2911ad20155d993aa
+run_id: d08cc2632c0444e2b73959575047a187
+signature:
+  inputs: '[{"name": "Unnamed: 0", "type": "double"}, {"name": "child_num", "type":
+    "double"}, {"name": "income_total", "type": "double"}, {"name": "DAYS_BIRTH",
+    "type": "double"}, {"name": "DAYS_EMPLOYED", "type": "double"}, {"name": "FLAG_MOBIL",
+    "type": "double"}, {"name": "work_phone", "type": "double"}, {"name": "phone",
+    "type": "double"}, {"name": "email", "type": "double"}, {"name": "family_size",
+    "type": "double"}, {"name": "begin_month", "type": "double"}, {"name": "gender_F",
+    "type": "double"}, {"name": "gender_M", "type": "double"}, {"name": "car_N", "type":
+    "double"}, {"name": "car_Y", "type": "double"}, {"name": "reality_N", "type":
+    "double"}, {"name": "reality_Y", "type": "double"}, {"name": "income_type_Commercial
+    associate", "type": "double"}, {"name": "income_type_Pensioner", "type": "double"},
+    {"name": "income_type_State servant", "type": "double"}, {"name": "income_type_Student",
+    "type": "double"}, {"name": "income_type_Working", "type": "double"}, {"name":
+    "edu_type_Academic degree", "type": "double"}, {"name": "edu_type_Higher education",
+    "type": "double"}, {"name": "edu_type_Incomplete higher", "type": "double"}, {"name":
+    "edu_type_Lower secondary", "type": "double"}, {"name": "edu_type_Secondary /
+    secondary special", "type": "double"}, {"name": "family_type_Civil marriage",
+    "type": "double"}, {"name": "family_type_Married", "type": "double"}, {"name":
+    "family_type_Separated", "type": "double"}, {"name": "family_type_Single / not
+    married", "type": "double"}, {"name": "family_type_Widow", "type": "double"},
+    {"name": "house_type_Co-op apartment", "type": "double"}, {"name": "house_type_House
+    / apartment", "type": "double"}, {"name": "house_type_Municipal apartment", "type":
+    "double"}, {"name": "house_type_Office apartment", "type": "double"}, {"name":
+    "house_type_Rented apartment", "type": "double"}, {"name": "house_type_With parents",
+    "type": "double"}, {"name": "occyp_type_Accountants", "type": "double"}, {"name":
+    "occyp_type_Cleaning staff", "type": "double"}, {"name": "occyp_type_Cooking staff",
+    "type": "double"}, {"name": "occyp_type_Core staff", "type": "double"}, {"name":
+    "occyp_type_Drivers", "type": "double"}, {"name": "occyp_type_HR staff", "type":
+    "double"}, {"name": "occyp_type_High skill tech staff", "type": "double"}, {"name":
+    "occyp_type_IT staff", "type": "double"}, {"name": "occyp_type_Laborers", "type":
+    "double"}, {"name": "occyp_type_Low-skill Laborers", "type": "double"}, {"name":
+    "occyp_type_Managers", "type": "double"}, {"name": "occyp_type_Medicine staff",
+    "type": "double"}, {"name": "occyp_type_NAN", "type": "double"}, {"name": "occyp_type_Private
+    service staff", "type": "double"}, {"name": "occyp_type_Realty agents", "type":
+    "double"}, {"name": "occyp_type_Sales staff", "type": "double"}, {"name": "occyp_type_Secretaries",
+    "type": "double"}, {"name": "occyp_type_Security staff", "type": "double"}, {"name":
+    "occyp_type_Waiters/barmen staff", "type": "double"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+utc_time_created: '2022-08-24 03:09:19.787673'

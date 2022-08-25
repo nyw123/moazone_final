@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ec2-user/mlruns/1/2032fbe1f2614ae89f53736fb553c87b/artifacts
+end_time: 1661308974837
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: 2032fbe1f2614ae89f53736fb553c87b
+run_uuid: 2032fbe1f2614ae89f53736fb553c87b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1661308968650
+status: 3
+tags: []
+user_id: ec2-user
