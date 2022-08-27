@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-27T19:40:24.107Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="0UYKNpeSJHNlB70hGkUg" version="20.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-27T19:40:32.987Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="vcwVTC1I3uFB4QO61ZGI" version="20.2.6" type="github">
   <diagram id="Gc7l7-gy1XUnMGawxhDr" name="페이지-1">
-    <mxGraphModel dx="946" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2102" dy="1380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -169,12 +169,6 @@
         </mxCell>
         <mxCell id="GZmUXPdcQSyBrFpp-1HJ-80" value="Cloud Front" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloudfront;fillColor=#F58536;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="1140" y="119.04" width="46.5" height="56.53" as="geometry" />
-        </mxCell>
-        <mxCell id="GZmUXPdcQSyBrFpp-1HJ-43" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds;fillColor=#2E73B8;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1360" y="797.75" width="46.67" height="52.5" as="geometry" />
-        </mxCell>
-        <mxCell id="GZmUXPdcQSyBrFpp-1HJ-44" value="RDS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1411" y="807" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Q9xnJySd4TzFd6jFLzlh-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/1200px-Microsoft_Azure.svg.png;" parent="1" vertex="1">
           <mxGeometry x="152.6" y="123" width="54" height="54" as="geometry" />
