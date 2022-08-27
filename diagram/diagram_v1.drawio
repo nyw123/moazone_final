@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-27T19:39:10.399Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="G0TWOq73jUHjHq5x3K1Y" version="20.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-27T19:40:24.107Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="0UYKNpeSJHNlB70hGkUg" version="20.2.6" type="github">
   <diagram id="Gc7l7-gy1XUnMGawxhDr" name="페이지-1">
     <mxGraphModel dx="946" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -239,12 +239,6 @@
         </mxCell>
         <mxCell id="Q9xnJySd4TzFd6jFLzlh-56" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png;" parent="1" vertex="1">
           <mxGeometry x="760" y="490" width="115.46" height="62.17" as="geometry" />
-        </mxCell>
-        <mxCell id="TNiu4YbV_ZcXUfFX8XFl-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1146" y="276.5428571428572" as="sourcePoint" />
-            <mxPoint x="1050" y="276.6" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="TNiu4YbV_ZcXUfFX8XFl-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.57;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Q9xnJySd4TzFd6jFLzlh-42" target="Q9xnJySd4TzFd6jFLzlh-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
