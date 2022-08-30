@@ -110,7 +110,7 @@ if __name__ == "__main__":
 
     DB_USER = os.getenv("DB_USER")
     DB_PW = os.getenv("DB_PW")
-    DB_ADDR = os.getenv("DB_ADDR ")
+    DB_ADDR = os.getenv("DB_ADDR")
     DB_PORT = os.getenv("DB_PORT")
     DB_NAME = os.getenv("DB_NAME")
     
