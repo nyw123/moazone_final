@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T08:02:00.926Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="DD-xdqMgMde2Z0OyPM1M" version="20.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-30T08:06:42.243Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="chSibGZtZ4WcHOFBbLbH" version="20.2.7" type="github" pages="2">
   <diagram id="Gc7l7-gy1XUnMGawxhDr" name="페이지-1">
-    <mxGraphModel dx="483" dy="266" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1597" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JlAwPcuOS6jkdKTEwvYF-3" value="" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;strokeColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="605.93" y="822.35" width="394.07" height="197.65" as="geometry" />
+        </mxCell>
         <mxCell id="V_rxERyLcr9hmnywlNJD-26" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[1,1,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=0;absoluteArcSize=1;arcSize=2;html=1;shadow=0;dashed=0;fontSize=12;align=left;verticalAlign=top;spacing=10;spacingTop=-4;" parent="1" vertex="1">
           <mxGeometry x="530" y="545" width="550" height="195" as="geometry" />
-        </mxCell>
-        <mxCell id="Q9xnJySd4TzFd6jFLzlh-42" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="610.95" y="820" width="380" height="200" as="geometry" />
         </mxCell>
         <mxCell id="RmK6DByKgA-kRegOImkC-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="64.59" y="430" width="360" height="360" as="geometry" />
@@ -234,7 +234,7 @@
         <mxCell id="-czxyIKFuqTJFSKeoeac-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="V_rxERyLcr9hmnywlNJD-33" target="usIRA-kO4V7hB5ve2QcD-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V_rxERyLcr9hmnywlNJD-33" value="model&lt;br&gt;metric" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="1" vertex="1">
+        <mxCell id="V_rxERyLcr9hmnywlNJD-33" value="model&lt;br&gt;metric" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#999999;" parent="1" vertex="1">
           <mxGeometry x="817" y="845.94" width="80" height="60.06" as="geometry" />
         </mxCell>
         <mxCell id="-czxyIKFuqTJFSKeoeac-17" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;" parent="1" source="V_rxERyLcr9hmnywlNJD-34" target="Q9xnJySd4TzFd6jFLzlh-12" edge="1">
@@ -246,7 +246,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="V_rxERyLcr9hmnywlNJD-34" value="predicted value" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="1" vertex="1">
+        <mxCell id="V_rxERyLcr9hmnywlNJD-34" value="predicted value" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#808080;" parent="1" vertex="1">
           <mxGeometry x="897" y="845.94" width="80" height="60.06" as="geometry" />
         </mxCell>
         <mxCell id="-czxyIKFuqTJFSKeoeac-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-images-1.medium.com/max/1200/1*r5KdIfHXaz7UQM4FmZ0D5A.png;" parent="1" vertex="1">
