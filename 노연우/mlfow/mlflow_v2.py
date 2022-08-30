@@ -28,10 +28,10 @@ def load_data(key):
     return data
 
 def set_xy(train):
-    X = train.iloc[:,:-1]
+    x = train.iloc[:,:-1]
     y = train.iloc[:,-1]
     print('####### set X,y #######')
-    return X,y
+    return x,y
 
 def preprocess(X):
     X = pd.get_dummies(X)
@@ -68,17 +68,18 @@ def load_model(uid):
     print('####### load_model #######')
     return loaded_model
 
-def predict(X,model):
+def predict(X,x,model):
     pred = model.predict(X)
-    X['label'] = pred
-    X.rename(columns={'Unnamed: 0':'index'},inplace=True)
+    x['label'] = pred
+    x.rename(columns={'Unnamed: 0':'index'},inplace=True)
     print('####### predicted #######')
-    return X
+    return x
 
 def save_result(df):
     engine = create_engine(f'mysql+pymysql://{DB_USER}:{DB_PW}@{DB_ADDR}:{DB_PORT}/{DB_NAME}')
     conn = engine.connect()
     df.to_sql(name='new', con=engine, if_exists='append',index=False)
+
     print('\n####### saved result to rds #######')
 
 def save_to_s3():
@@ -88,18 +89,22 @@ def save_to_s3():
     print('\n####### saved model to s3 #######')
 
 def main():
-    train = load_data(train_key)
+    #train_key = "input/train.csv"
+    train_key2 = "upload/gcp.csv"
+    test_key = "input/test.csv"
+
+    train = load_data(train_key2)
     #test = load_data(test_key)
-    X,y = set_xy(train)
-    X = preprocess(X)
+    x,y = set_xy(train)
+    X = preprocess(x)
 
     x_train, x_test, y_train, y_test = tt_split(X,y)
-    expname = 'card'
-    model = make_model_exep(expname)
+    exp_name = 'card'
+    model = make_model_exep(exp_name)
     uid = train_save_model(x_train,y_train,x_test,y_test,model)
 
     loaded = load_model(uid)
-    df = predict(X,model)
+    df = predict(X,x,loaded)
     save_result(df)
     save_to_s3()
     
@@ -110,12 +115,9 @@ if __name__ == "__main__":
 
     DB_USER = os.getenv("DB_USER")
     DB_PW = os.getenv("DB_PW")
-    DB_ADDR = os.getenv("DB_ADDR ")
+    DB_ADDR = os.getenv("DB_ADDR")
     DB_PORT = os.getenv("DB_PORT")
     DB_NAME = os.getenv("DB_NAME")
     
-    train_key = "input/train.csv"
-    #train_key2 = "upload/gcp.csv"
-    test_key = "input/test.csv"
-
     main()
+
