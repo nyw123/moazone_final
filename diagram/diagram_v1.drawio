@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T05:36:13.591Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="2lLancq_pT7GqdSqSu0t" version="20.2.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-05T05:45:07.776Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="0rI1z9G9ZJjoPdw3DRzx" version="20.2.8" type="github" pages="2">
   <diagram id="Gc7l7-gy1XUnMGawxhDr" name="페이지-1">
     <mxGraphModel dx="2365" dy="1553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -252,7 +252,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-czxyIKFuqTJFSKeoeac-25" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.waf;" parent="1" vertex="1">
-          <mxGeometry x="767" y="1180" width="60.19" height="60.19" as="geometry" />
+          <mxGeometry x="419.81" y="968.5899999999999" width="60.19" height="60.19" as="geometry" />
         </mxCell>
         <mxCell id="NARi135oD1CQc2OERhiC-1" value="React" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-5/24/react-128.png;spacing=-2;" vertex="1" parent="1">
           <mxGeometry x="1427" y="977.21" width="59" height="59" as="geometry" />
