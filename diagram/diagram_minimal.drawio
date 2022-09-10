@@ -1,6 +1,6 @@
-<mxfile modified="2022-09-10T13:33:52.400Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="cywUXXUvXGCIS4e65yTI" version="20.3.0" type="github">
+<mxfile modified="2022-09-10T13:35:22.284Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="RDyLl0sl0dpIj_IE9OqM" version="20.3.0" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole">
-    <mxGraphModel dx="2102" dy="1253" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="556" dy="332" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -478,6 +478,12 @@
         </mxCell>
         <mxCell id="WVheMoRhKIVzaEbbGEJG-385" value="WAF" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.waf;shadow=1;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1625.97" y="948" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WVheMoRhKIVzaEbbGEJG-424" value="" style="rounded=0;arcSize=10;strokeColor=none;fillColor=#FAFAFA;gradientColor=none;strokeWidth=1;shadow=1;glass=0;comic=0;fillStyle=auto;fontFamily=Helvetica;fontSize=12;fontColor=#009999;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1135.96" y="911.66" width="235" height="126.34" as="geometry" />
+        </mxCell>
+        <mxCell id="WVheMoRhKIVzaEbbGEJG-423" value="&amp;nbsp;&lt;font color=&quot;#4a98ff&quot;&gt;Monitoring&lt;/font&gt;" style="fillColor=#28A8E0;verticalLabelPosition=middle;sketch=0;html=1;strokeColor=#ffffff;verticalAlign=middle;align=left;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.monitoring;shadow=1;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=2;fontSize=12;fontColor=none;labelPosition=right;" vertex="1" parent="1">
+          <mxGeometry x="1134" y="907" width="35.24" height="35.24" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
