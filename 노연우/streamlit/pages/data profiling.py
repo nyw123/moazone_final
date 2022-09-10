@@ -14,7 +14,7 @@ st.markdown("# data profiling ❄️")
 st.sidebar.markdown("# data profiling ❄️")
 
 
-HtmlFile = open("https://github.com/nyw123/moazone_final/blob/089930c632e99f48af348984b54e57065bbc8041/%EB%85%B8%EC%97%B0%EC%9A%B0/streamlit/pages/profile.html", 'r', encoding='utf-8')
+HtmlFile = open("https://raw.githubusercontent.com/nyw123/moazone_final/master/%EB%85%B8%EC%97%B0%EC%9A%B0/streamlit/pages/profile.html", 'r', encoding='utf-8')
 source_code = HtmlFile.read() 
 components.html(source_code,width=1000,height = 800,scrolling=True)
 
