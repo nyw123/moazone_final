@@ -1,9 +1,12 @@
-<mxfile modified="2022-09-10T13:27:06.963Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="uP80r2cITArs9sSEkZHJ" version="20.3.0" type="github">
+<mxfile modified="2022-09-10T13:29:07.168Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="_zGrFiSeNK-h-m4vIOyX" version="20.3.0" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole">
-    <mxGraphModel dx="1183" dy="705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="728" dy="434" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WVheMoRhKIVzaEbbGEJG-420" value="" style="rounded=0;arcSize=10;strokeColor=none;fillColor=#FAFAFA;gradientColor=none;strokeWidth=1;shadow=1;glass=0;comic=0;fillStyle=auto;fontFamily=Helvetica;fontSize=12;fontColor=#009999;" vertex="1" parent="1">
+          <mxGeometry x="1208.46" y="883" width="282.54" height="142" as="geometry" />
+        </mxCell>
         <mxCell id="WVheMoRhKIVzaEbbGEJG-372" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#F19C99;strokeWidth=2;fontSize=12;fontColor=#000000;endArrow=none;endFill=0;startSize=6;endSize=6;flowAnimation=1;startArrow=none;" edge="1" parent="1" source="WVheMoRhKIVzaEbbGEJG-307" target="WVheMoRhKIVzaEbbGEJG-309">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -472,6 +475,9 @@
         </mxCell>
         <mxCell id="WVheMoRhKIVzaEbbGEJG-395" value="IAM" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://in4it.io/wp-content/uploads/2020/07/AWS-Identity-and-Access-Management_IAM.png;" vertex="1" parent="1">
           <mxGeometry x="1409" y="921" width="52" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="WVheMoRhKIVzaEbbGEJG-418" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/security/security_services.svg;labelBorderColor=none;sketch=0;strokeColor=#B266FF;strokeWidth=2;fillColor=#FAFAFA;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="877" width="36" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
