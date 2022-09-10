@@ -1,8 +1,0 @@
-channels:
-- conda-forge
-dependencies:
-- pip
-- pip:
-  - mlflow
-  - pycaret==2.3.5
-name: card-0910-env
