@@ -1,4 +1,4 @@
-<mxfile modified="2022-09-10T10:12:59.182Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="S1RcULx3wIPVa1-r6zxR" version="20.3.0" type="github">
+<mxfile modified="2022-09-10T10:15:21.038Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="YeV1SD9t2KrJViQYxBpA" version="20.3.0" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="996" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -33,9 +33,6 @@
         </mxCell>
         <mxCell id="WVheMoRhKIVzaEbbGEJG-8" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/cad-database-presentation-spreadsheet-vector-fil-2/512/19-128.png" vertex="1" parent="1">
           <mxGeometry x="280" y="275.90000000000003" width="32.21" height="32.21" as="geometry" />
-        </mxCell>
-        <mxCell id="WVheMoRhKIVzaEbbGEJG-42" value="&lt;font style=&quot;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Noto+Sans&quot;&gt;Card Company&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=center;verticalAlign=middle;spacingTop=-4;fontSize=16;fontFamily=Helvetica;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="54.25" y="156" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WVheMoRhKIVzaEbbGEJG-62" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;strokeColor=#67AB9F;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="78.5" y="390" width="251.5" height="110" as="geometry" />
@@ -169,10 +166,16 @@
           <mxGeometry x="660" y="550" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WVheMoRhKIVzaEbbGEJG-165" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;comic=0;sketch=0;fillStyle=auto;strokeColor=none;strokeWidth=0;fontFamily=Helvetica;fontColor=#FF8000;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="800" y="640" width="310" height="620" as="geometry" />
+          <mxGeometry x="800" y="640" width="310" height="170" as="geometry" />
         </mxCell>
         <mxCell id="WVheMoRhKIVzaEbbGEJG-164" value="&lt;font color=&quot;#ff8000&quot;&gt;&amp;nbsp; Auto Scaling Group&lt;/font&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.auto_scaling2;rounded=1;shadow=0;glass=0;comic=0;fillStyle=auto;strokeWidth=0;fontFamily=Helvetica;labelPosition=right;" vertex="1" parent="1">
           <mxGeometry x="800" y="640" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WVheMoRhKIVzaEbbGEJG-167" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/icons-for-a-site-1/64/advantage_payment_way-128.png;rounded=1;shadow=0;glass=0;comic=0;sketch=0;fillStyle=auto;strokeColor=#FF8000;strokeWidth=0;fontFamily=Helvetica;fontColor=#FF8000;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="55.5" y="180" width="29" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="WVheMoRhKIVzaEbbGEJG-168" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Card Comapny&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="88.5" y="180" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
