@@ -1,6 +1,6 @@
-<mxfile modified="2022-09-10T13:41:31.891Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="J8czWy6knitD40iPUD9A" version="20.3.0" type="github">
+<mxfile modified="2022-09-10T13:41:36.211Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="3wUjduTD6-Up-aJ3vjl_" version="20.3.0" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole">
-    <mxGraphModel dx="901" dy="537" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1183" dy="705" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -178,9 +178,7 @@
             <mxPoint x="425.35000000000014" y="773" as="targetPoint" />
             <Array as="points">
               <mxPoint x="499" y="421" />
-              <mxPoint x="499" y="545" />
-              <mxPoint x="490" y="545" />
-              <mxPoint x="490" y="760" />
+              <mxPoint x="499" y="760" />
             </Array>
           </mxGeometry>
         </mxCell>
