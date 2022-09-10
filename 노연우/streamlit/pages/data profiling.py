@@ -12,16 +12,22 @@ file_list_html = [file for file in file_list if file.endswith(".html")]
 
 st.markdown("# data profiling ❄️")
 st.sidebar.markdown("# data profiling ❄️")
-#print(file_list)
-if len(file_list_html)>0:
-    HtmlFile = open("./pages/profile.html", 'r', encoding='utf-8')
-    source_code = HtmlFile.read() 
-    components.html(source_code,width=1000,height = 800,scrolling=True)
 
-else:
-    df = pd.read_csv('../train.csv')
-    profile = df.profile_report()
-    profile.to_file(output_file="./pages/profile.html")
-    HtmlFile = open("../profile.html", 'r', encoding='utf-8')
-    source_code = HtmlFile.read() 
-    components.html(source_code,width=1000,height = 800,scrolling=True)
+
+HtmlFile = open("https://github.com/nyw123/moazone_final/blob/089930c632e99f48af348984b54e57065bbc8041/%EB%85%B8%EC%97%B0%EC%9A%B0/streamlit/pages/profile.html", 'r', encoding='utf-8')
+source_code = HtmlFile.read() 
+components.html(source_code,width=1000,height = 800,scrolling=True)
+
+#print(file_list)
+# if len(file_list_html)>0:
+#     HtmlFile = open("./pages/profile.html", 'r', encoding='utf-8')
+#     source_code = HtmlFile.read() 
+#     components.html(source_code,width=1000,height = 800,scrolling=True)
+
+# else:
+#     df = pd.read_csv('../train.csv')
+#     profile = df.profile_report()
+#     profile.to_file(output_file="./pages/profile.html")
+#     HtmlFile = open("../profile.html", 'r', encoding='utf-8')
+#     source_code = HtmlFile.read() 
+#     components.html(source_code,width=1000,height = 800,scrolling=True)

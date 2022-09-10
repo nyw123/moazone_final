@@ -12,7 +12,7 @@ st.sidebar.markdown("# model metric 🎉")
 #     return create_model(estimator)
 
 
-train = pd.read_csv('../train.csv')
+train = pd.read_csv('https://github.com/nyw123/moazone_final/blob/089930c632e99f48af348984b54e57065bbc8041/%EB%85%B8%EC%97%B0%EC%9A%B0/train.csv')
 train = train.iloc[:2000,:]
 clf = setup(train, target = 'label', train_size = 0.7,experiment_name='card-0910',silent = True)
 top = compare_models(sort='Accuracy', n_select=1)
