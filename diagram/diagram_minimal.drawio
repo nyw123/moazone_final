@@ -1,6 +1,6 @@
-<mxfile modified="2022-09-10T13:36:46.790Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="VSk17K44NCDdRP88-z2j" version="20.3.0" type="github">
+<mxfile modified="2022-09-10T13:36:59.954Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="R6-c-6uWGJDKkFLV54PT" version="20.3.0" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole">
-    <mxGraphModel dx="556" dy="332" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1261" dy="752" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -483,7 +483,7 @@
           <mxGeometry x="1135.96" y="911.66" width="235" height="126.34" as="geometry" />
         </mxCell>
         <mxCell id="WVheMoRhKIVzaEbbGEJG-423" value="&amp;nbsp;&lt;font color=&quot;#4a98ff&quot;&gt;Monitoring&lt;/font&gt;" style="fillColor=#28A8E0;verticalLabelPosition=middle;sketch=0;html=1;strokeColor=#ffffff;verticalAlign=middle;align=left;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.monitoring;shadow=1;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=2;fontSize=12;fontColor=none;labelPosition=right;" vertex="1" parent="1">
-          <mxGeometry x="1134" y="907" width="35.24" height="35.24" as="geometry" />
+          <mxGeometry x="1130" y="907" width="35.24" height="35.24" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
