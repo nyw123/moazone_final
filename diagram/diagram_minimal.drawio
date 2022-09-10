@@ -1,4 +1,4 @@
-<mxfile modified="2022-09-10T11:14:43.393Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="V41Lvae5_vWsnftp4KPB" version="20.3.0" type="github">
+<mxfile modified="2022-09-10T11:15:11.561Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="JvEoZkWhf40JpZs4iBHr" version="20.3.0" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole">
     <mxGraphModel dx="2102" dy="1253" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -141,23 +141,23 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="854.5" y="477" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="784.5" y="438" />
-              <mxPoint x="784.5" y="438" />
+              <mxPoint x="770" y="555" />
+              <mxPoint x="770" y="438" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WVheMoRhKIVzaEbbGEJG-143" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#67AB9F;strokeWidth=2;fontFamily=Helvetica;fontColor=#003366;endArrow=none;endFill=0;startArrow=none;startFill=0;flowAnimation=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="WVheMoRhKIVzaEbbGEJG-149">
+        <mxCell id="WVheMoRhKIVzaEbbGEJG-143" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#67AB9F;strokeWidth=2;fontFamily=Helvetica;fontColor=#003366;endArrow=none;endFill=0;startArrow=none;startFill=0;flowAnimation=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WVheMoRhKIVzaEbbGEJG-114" target="WVheMoRhKIVzaEbbGEJG-149">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="682.5" y="439.72727272727263" as="sourcePoint" />
             <mxPoint x="425.35000000000014" y="773" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="554.5" y="440" />
-              <mxPoint x="554.5" y="760" />
+              <mxPoint x="554" y="555" />
+              <mxPoint x="554" y="760" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="WVheMoRhKIVzaEbbGEJG-114" value="Storage Gateway&lt;br&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.storage_gateway;rounded=0;shadow=0;glass=0;comic=0;strokeWidth=2;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="682.5" y="414.71000000000004" width="50" height="50" as="geometry" />
+          <mxGeometry x="642.5" y="520" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WVheMoRhKIVzaEbbGEJG-128" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#67AB9F;strokeWidth=2;fontFamily=Helvetica;flowAnimation=1;endArrow=block;endFill=0;" edge="1" parent="1" source="WVheMoRhKIVzaEbbGEJG-110" target="WVheMoRhKIVzaEbbGEJG-189">
           <mxGeometry relative="1" as="geometry">
