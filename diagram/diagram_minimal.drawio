@@ -1,4 +1,4 @@
-<mxfile modified="2022-09-10T11:13:00.617Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="PlG-UtTrBF2rpaF1UWq_" version="20.3.0" type="github">
+<mxfile modified="2022-09-10T11:13:16.111Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Sd53MdbkkLtT0LgLngMg" version="20.3.0" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole">
     <mxGraphModel dx="2102" dy="1253" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -238,7 +238,7 @@
         <mxCell id="WVheMoRhKIVzaEbbGEJG-196" value="&lt;font color=&quot;#ff8000&quot;&gt;Availability Zone&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;align=center;" vertex="1" parent="WVheMoRhKIVzaEbbGEJG-198">
           <mxGeometry x="207.92857142857144" y="118.75" width="110.30357142857142" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WVheMoRhKIVzaEbbGEJG-215" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;SageMaker Autopilot&lt;br&gt;&lt;/span&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16;fontFamily=Helvetica;" vertex="1" parent="WVheMoRhKIVzaEbbGEJG-211">
+        <mxCell id="WVheMoRhKIVzaEbbGEJG-215" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;font color=&quot;#009999&quot;&gt;SageMaker Autopilot&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16;fontFamily=Helvetica;" vertex="1" parent="WVheMoRhKIVzaEbbGEJG-211">
           <mxGeometry x="153.67999999999995" y="30" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WVheMoRhKIVzaEbbGEJG-214" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#006EAF;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#009999;startArrow=none;startFill=0;endArrow=none;endFill=0;flowAnimation=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WVheMoRhKIVzaEbbGEJG-157" target="WVheMoRhKIVzaEbbGEJG-199">
