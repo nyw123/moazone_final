@@ -85,7 +85,7 @@ def save_result(df):
 def save_to_s3():
     mlruns_direc = "./mlruns/"
     output = subprocess.run(["aws", "s3", "sync", "{}".format(mlruns_direc), "s3://{}".format(AWS_S3_BUCKET)], stdout=subprocess.PIPE, encoding='utf-8')
-    print(output.stdout)
+    #print(output.stdout)
     print('\n####### saved model to s3 #######')
 
 def main():
