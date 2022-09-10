@@ -1,6 +1,6 @@
-<mxfile modified="2022-09-10T13:18:03.686Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="l0XgpC3hg3HzeznodFVp" version="20.3.0" type="github">
+<mxfile modified="2022-09-10T13:18:57.109Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="GfKgLYo9oOdbSCFrfNRh" version="20.3.0" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole">
-    <mxGraphModel dx="996" dy="594" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="860" dy="513" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -297,7 +297,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1751" y="628" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1721" y="633" />
+              <mxPoint x="1721" y="640" />
               <mxPoint x="1721" y="808" />
             </Array>
           </mxGeometry>
@@ -448,7 +448,7 @@
           <mxGeometry x="1327" y="921" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WVheMoRhKIVzaEbbGEJG-389" value="Secret Manager" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://k21academy.com/wp-content/uploads/2021/03/c-1.png;clipPath=inset(2.4% 8% 11.99% 8%);" vertex="1" parent="1">
-          <mxGeometry x="1365.46" y="702" width="50" height="49.6" as="geometry" />
+          <mxGeometry x="1648" y="689" width="50" height="49.6" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
