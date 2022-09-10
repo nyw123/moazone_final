@@ -1,6 +1,6 @@
-<mxfile modified="2022-09-10T11:31:07.223Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="b9Xu757Y1GjExJtU3t2P" version="20.3.0" type="github">
+<mxfile modified="2022-09-10T11:32:25.806Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="tJOhdqzacKG2U57UPVQF" version="20.3.0" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole">
-    <mxGraphModel dx="1720" dy="1025" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3153" dy="1880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -194,7 +194,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WVheMoRhKIVzaEbbGEJG-211" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="849" y="680" width="484" height="280" as="geometry" />
+          <mxGeometry x="849" y="680" width="501" height="328" as="geometry" />
         </mxCell>
         <mxCell id="WVheMoRhKIVzaEbbGEJG-176" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;comic=0;sketch=0;fillStyle=auto;strokeColor=none;strokeWidth=0;fontFamily=Helvetica;fontColor=#FF8000;fillColor=default;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="WVheMoRhKIVzaEbbGEJG-211">
           <mxGeometry width="412" height="250" as="geometry" />
@@ -240,6 +240,9 @@
         </mxCell>
         <mxCell id="WVheMoRhKIVzaEbbGEJG-215" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;font color=&quot;#009999&quot;&gt;SageMaker Autopilot&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16;fontFamily=Helvetica;" vertex="1" parent="WVheMoRhKIVzaEbbGEJG-211">
           <mxGeometry x="153.67999999999995" y="30" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WVheMoRhKIVzaEbbGEJG-288" value="" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=api;rounded=0;shadow=0;glass=0;comic=0;fillStyle=auto;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=#009999;" vertex="1" parent="WVheMoRhKIVzaEbbGEJG-211">
+          <mxGeometry x="451" y="280" width="50" height="48" as="geometry" />
         </mxCell>
         <mxCell id="WVheMoRhKIVzaEbbGEJG-214" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#4A98FF;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#009999;startArrow=none;startFill=0;endArrow=none;endFill=0;flowAnimation=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WVheMoRhKIVzaEbbGEJG-157" target="WVheMoRhKIVzaEbbGEJG-199">
           <mxGeometry relative="1" as="geometry">
