@@ -1,4 +1,4 @@
-<mxfile modified="2022-09-10T11:55:35.497Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="X-aYUs0nieUzFQzu2jtM" version="20.3.0" type="github">
+<mxfile modified="2022-09-10T11:56:41.641Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="BJBA5jOnFEhFhGlOLmOd" version="20.3.0" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole">
     <mxGraphModel dx="728" dy="434" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -393,7 +393,7 @@
         <mxCell id="WVheMoRhKIVzaEbbGEJG-318" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4A98FF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.sagemaker_model;shadow=0;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="513" y="1035" width="46" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="WVheMoRhKIVzaEbbGEJG-319" value="&lt;span style=&quot;color: rgb(35, 47, 62); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Model Transportation&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="WVheMoRhKIVzaEbbGEJG-319" value="&lt;span style=&quot;color: rgb(35, 47, 62); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Model Deployment&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="564.0046153846152" y="1037.503846153846" width="140" height="41" as="geometry" />
         </mxCell>
       </root>
