@@ -1,11 +1,11 @@
-<mxfile modified="2022-09-10T13:38:19.112Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="zh_3rW0j_V1SyDHIWqZO" version="20.3.0" type="github">
+<mxfile modified="2022-09-10T13:38:37.122Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="n8aBKrxKAVNwqeV42e-8" version="20.3.0" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole">
     <mxGraphModel dx="701" dy="418" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="WVheMoRhKIVzaEbbGEJG-420" value="" style="rounded=0;arcSize=10;strokeColor=none;fillColor=#FAFAFA;gradientColor=none;strokeWidth=1;shadow=0;glass=0;comic=0;fillStyle=auto;fontFamily=Helvetica;fontSize=12;fontColor=#009999;container=0;" vertex="1" parent="1">
-          <mxGeometry x="1423.43" y="909" width="282.54" height="124.68" as="geometry" />
+          <mxGeometry x="1446" y="909" width="244" height="124.68" as="geometry" />
         </mxCell>
         <mxCell id="WVheMoRhKIVzaEbbGEJG-372" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#F19C99;strokeWidth=2;fontSize=12;fontColor=#000000;endArrow=none;endFill=0;startSize=6;endSize=6;flowAnimation=1;startArrow=none;" edge="1" parent="1" source="WVheMoRhKIVzaEbbGEJG-307" target="WVheMoRhKIVzaEbbGEJG-309">
           <mxGeometry relative="1" as="geometry">
@@ -471,7 +471,7 @@
           <mxGeometry x="1541.97" y="948" width="52" height="52" as="geometry" />
         </mxCell>
         <mxCell id="WVheMoRhKIVzaEbbGEJG-418" value="Security" style="aspect=fixed;perimeter=ellipsePerimeter;align=left;shadow=0;dashed=0;fontColor=#990000;labelBackgroundColor=#FAFAFA;fontSize=12;spacingTop=3;image;image=img/lib/ibm/security/security_services.svg;labelBorderColor=none;sketch=0;strokeColor=#B266FF;strokeWidth=2;fillColor=#FAFAFA;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;imageBackground=none;" vertex="1" parent="1">
-          <mxGeometry x="1414.97" y="903" width="36" height="36" as="geometry" />
+          <mxGeometry x="1443" y="903" width="36" height="36" as="geometry" />
         </mxCell>
         <mxCell id="WVheMoRhKIVzaEbbGEJG-385" value="WAF" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.waf;shadow=0;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1625.97" y="948" width="50" height="50" as="geometry" />
