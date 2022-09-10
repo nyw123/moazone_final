@@ -1,4 +1,4 @@
-<mxfile modified="2022-09-10T09:00:12.335Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="QBvmC3T3Vr0thxDTS-o0" version="20.3.0" type="github">
+<mxfile modified="2022-09-10T09:01:48.508Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="yEs6Acl9rtCoCpjeAcy2" version="20.3.0" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1577" dy="1035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
           <mxGeometry x="510" y="374" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WVheMoRhKIVzaEbbGEJG-5" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="56.5" y="180" width="303.5" height="920" as="geometry" />
+          <mxGeometry x="56.5" y="180" width="303.5" height="860" as="geometry" />
         </mxCell>
         <mxCell id="WVheMoRhKIVzaEbbGEJG-7" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;strokeColor=#67AB9F;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="78.5" y="240" width="251.5" height="150" as="geometry" />
@@ -91,8 +91,8 @@
         <mxCell id="WVheMoRhKIVzaEbbGEJG-55" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/cad-database-presentation-spreadsheet-vector-fil-2/512/19-128.png" vertex="1" parent="1">
           <mxGeometry x="280" y="880.9000000000001" width="32.21" height="32.21" as="geometry" />
         </mxCell>
-        <mxCell id="WVheMoRhKIVzaEbbGEJG-56" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/OpenStack%C2%AE_Logo_2016.svg/2560px-OpenStack%C2%AE_Logo_2016.svg.png;clipPath=inset(0% 35% 48.28% 31.67%);" vertex="1" parent="1">
-          <mxGeometry x="220" y="876.9" width="51.33" height="38.5" as="geometry" />
+        <mxCell id="WVheMoRhKIVzaEbbGEJG-58" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://rastalion.me/wp-content/uploads/2019/04/Esxi-Logo-300x300.png;" vertex="1" parent="1">
+          <mxGeometry x="217.25" y="869.79" width="49" height="49" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
