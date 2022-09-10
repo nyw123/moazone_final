@@ -1,4 +1,4 @@
-<mxfile modified="2022-09-10T13:36:04.718Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="_Qx5FmmtrQ2nUp3Eb_iT" version="20.3.0" type="github">
+<mxfile modified="2022-09-10T13:36:46.790Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="VSk17K44NCDdRP88-z2j" version="20.3.0" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole">
     <mxGraphModel dx="556" dy="332" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -473,7 +473,7 @@
         <mxCell id="WVheMoRhKIVzaEbbGEJG-395" value="IAM" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://in4it.io/wp-content/uploads/2020/07/AWS-Identity-and-Access-Management_IAM.png;" vertex="1" parent="1">
           <mxGeometry x="1541.97" y="948" width="52" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="WVheMoRhKIVzaEbbGEJG-418" value="" style="aspect=fixed;perimeter=ellipsePerimeter;align=left;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=none;fontSize=12;spacingTop=3;image;image=img/lib/ibm/security/security_services.svg;labelBorderColor=none;sketch=0;strokeColor=#B266FF;strokeWidth=2;fillColor=#FAFAFA;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;imageBackground=none;" vertex="1" parent="1">
+        <mxCell id="WVheMoRhKIVzaEbbGEJG-418" value="Security" style="aspect=fixed;perimeter=ellipsePerimeter;align=left;shadow=0;dashed=0;fontColor=#990000;labelBackgroundColor=#FAFAFA;fontSize=12;spacingTop=3;image;image=img/lib/ibm/security/security_services.svg;labelBorderColor=none;sketch=0;strokeColor=#B266FF;strokeWidth=2;fillColor=#FAFAFA;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;imageBackground=none;" vertex="1" parent="1">
           <mxGeometry x="1414.97" y="903" width="36" height="36" as="geometry" />
         </mxCell>
         <mxCell id="WVheMoRhKIVzaEbbGEJG-385" value="WAF" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.waf;shadow=1;labelBackgroundColor=none;labelBorderColor=none;strokeWidth=2;" vertex="1" parent="1">
