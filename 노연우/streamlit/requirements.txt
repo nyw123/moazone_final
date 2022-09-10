@@ -1,4 +1,0 @@
-pandas_profiling
-mlflow
-pycaret
-numpy==1.20
