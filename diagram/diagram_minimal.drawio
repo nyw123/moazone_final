@@ -1,6 +1,6 @@
-<mxfile modified="2022-09-10T13:30:56.650Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="sHYaW5wBX8PGzwXJPYiS" version="20.3.0" type="github">
+<mxfile modified="2022-09-10T13:31:40.684Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="7O09gHPY1bB_N3cRchLb" version="20.3.0" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole">
-    <mxGraphModel dx="1720" dy="1025" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="701" dy="418" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -476,7 +476,7 @@
         <mxCell id="WVheMoRhKIVzaEbbGEJG-395" value="IAM" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://in4it.io/wp-content/uploads/2020/07/AWS-Identity-and-Access-Management_IAM.png;" vertex="1" parent="1">
           <mxGeometry x="1391" y="954.68" width="52" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="WVheMoRhKIVzaEbbGEJG-418" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/security/security_services.svg;labelBorderColor=none;sketch=0;strokeColor=#B266FF;strokeWidth=2;fillColor=#FAFAFA;" vertex="1" parent="1">
+        <mxCell id="WVheMoRhKIVzaEbbGEJG-418" value="&amp;nbsp;&lt;font color=&quot;#990000&quot;&gt;Security&lt;/font&gt;&amp;nbsp;" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=left;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=none;fontSize=12;spacingTop=3;image;image=img/lib/ibm/security/security_services.svg;labelBorderColor=none;sketch=0;strokeColor=#B266FF;strokeWidth=2;fillColor=#FAFAFA;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="1182" y="917" width="36" height="36" as="geometry" />
         </mxCell>
       </root>
