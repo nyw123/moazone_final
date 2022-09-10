@@ -1,4 +1,4 @@
-<mxfile modified="2022-09-10T12:13:55.249Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="hKlwIUmf1WtoDVxoKn4v" version="20.3.0" type="github">
+<mxfile modified="2022-09-10T12:14:09.664Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="6MFX3TEjazgzfjaSspn2" version="20.3.0" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole">
     <mxGraphModel dx="1577" dy="940" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -418,7 +418,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WVheMoRhKIVzaEbbGEJG-342" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://d1.awsstatic.com/serverless/Lambda%20Resources%20images/SAM_acorn_1.0dd761f4fca5f2e7007a323b74631ec71b03a92d.png;clipPath=inset(2.44% 28.33% 3.66% 31.67%);" vertex="1" parent="1">
-          <mxGeometry x="1831" y="374" width="118.44155844155844" height="152" as="geometry" />
+          <mxGeometry x="1831" y="374" width="50" height="64.17" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
