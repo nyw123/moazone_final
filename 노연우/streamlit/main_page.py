@@ -92,7 +92,6 @@ for seconds in range(20):
             
         with fig_col2:
             st.markdown("### Second Chart")
-            df = px.data.gapminder()
             fig2 = px.bar(df, x="car", y="income_total", color="label")
             #animation_frame="year", animation_group="country", range_y=[0,4000000000])
             #fig2.show()
