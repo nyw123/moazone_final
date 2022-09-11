@@ -26,92 +26,36 @@ import psycopg2
 import s3fs
 import os
 
-# Create connection object.
-# `anon=False` means not anonymous, i.e. it uses access keys to pull data.
-fs = s3fs.S3FileSystem(anon=False)
 
-# Retrieve file contents.
-# Uses st.experimental_memo to only rerun when the query changes or after 10 min.
+
+st.set_page_config(
+    page_title="Real-Time Data Science Dashboard",
+    page_icon="✅",
+    layout="wide",
+)
+fs = s3fs.S3FileSystem(anon=False)
 @st.experimental_memo(ttl=600)
 def read_file(filename):
     df = pd.read_csv(fs.open(f'{filename}', mode='rb'))
     return df
 
 df = read_file('card-s3/upload/gcp.csv')
-st.dataframe(df)
-# st.write(content)
-# st.write(type(content))
 
-
-# i = 0
-# # Print results.
-# for line in content.strip().split("\n"):
-#     st.write(line)
-#     i = i+1
-#     if i>10:
-#         break
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-'''
-st.set_page_config(
-    page_title="Real-Time Data Science Dashboard",
-    page_icon="✅",
-    layout="wide",
-)
-
-# read csv from a github repo
-dataset_url = "https://raw.githubusercontent.com/Lexie88rus/bank-marketing-analysis/master/bank.csv"
-
-# read csv from a URL
-@st.experimental_memo
-def get_data() -> pd.DataFrame:
-    return pd.read_csv(dataset_url)
-
-df = get_data()
 
 # dashboard title
 st.title("Real-Time / Live Data Science Dashboard")
 
 # top-level filters
-job_filter = st.selectbox("Select the Job", pd.unique(df["job"]))
+job_filter = st.selectbox("Select the Job", pd.unique(df["occyp_type"]))
 
 # creating a single-element container
 placeholder = st.empty()
 
 # dataframe filter
-df = df[df["job"] == job_filter]
+df = df[df["occyp_type"] == job_filter]
 
 # near real-time / live feed simulation
 for seconds in range(20):
-
-    df["age_new"] = df["age"] * np.random.choice(range(1, 5))
-    df["balance_new"] = df["balance"] * np.random.choice(range(1, 5))
-
-    # creating KPIs
-    avg_age = np.mean(df["age_new"])
-
-    count_married = int(
-        df[(df["marital"] == "married")]["marital"].count()
-        + np.random.choice(range(1, 30))
-    )
-
-    balance = np.mean(df["balance_new"])
 
     with placeholder.container():
 
@@ -120,21 +64,21 @@ for seconds in range(20):
 
         # fill in those three columns with respective metrics or KPIs
         kpi1.metric(
-            label="Age ⏳",
-            value=round(avg_age),
-            delta=round(avg_age) - 10,
+            label="Accuracy",
+            value=0.6921,
+            delta= 0.005,
         )
         
         kpi2.metric(
-            label="Married Count 💍",
-            value=int(count_married),
-            delta=-10 + count_married,
+            label="F1-score",
+            value=0.6553,
+            delta=-0.012,
         )
         
         kpi3.metric(
-            label="A/C Balance ＄",
-            value=f"$ {round(balance,2)} ",
-            delta=-round(balance / count_married) * 100,
+            label="New Data",
+            value=39424,
+            delta=130,
         )
 
         # create two columns for charts
@@ -142,15 +86,15 @@ for seconds in range(20):
         with fig_col1:
             st.markdown("### First Chart")
             fig = px.density_heatmap(
-                data_frame=df, y="age_new", x="marital"
+                data_frame=df, y="gender", x="car"
             )
             st.write(fig)
             
         with fig_col2:
             st.markdown("### Second Chart")
             df2 = px.data.gapminder()
-            fig2 = px.bar(df2, x="continent", y="pop", color="continent",
-            animation_frame="year", animation_group="country", range_y=[0,4000000000])
+            fig2 = px.bar(df2, x="index", y="income_total", color="label"
+            #animation_frame="year", animation_group="country", range_y=[0,4000000000])
             #fig2.show()
 
             st.write(fig2)
@@ -158,4 +102,6 @@ for seconds in range(20):
         st.markdown("### Detailed Data View")
         st.dataframe(df)
         time.sleep(1)
-'''
+
+
+#st.dataframe(df)
