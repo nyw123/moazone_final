@@ -29,18 +29,15 @@ import os
 # Create connection object.
 # `anon=False` means not anonymous, i.e. it uses access keys to pull data.
 fs = s3fs.S3FileSystem(anon=False)
-key = 'upload/gcp.csv'
-bucket = 'card-s3'
 
-
-df = pd.read_csv(fs.open(f'{bucket}/{key}', mode='rb'))
 # Retrieve file contents.
 # Uses st.experimental_memo to only rerun when the query changes or after 10 min.
-# @st.experimental_memo(ttl=600)
-# def read_file(filename):
-#     with fs.open(filename) as f:
-#         return f.read().decode("utf-8")
+@st.experimental_memo(ttl=600)
+def read_file(filename):
+    df = pd.read_csv(fs.open(f'{filename}', mode='rb'))
+    return df
 
+df = read_file('card-s3/upload/gcp.csv')
 st.dataframe(df)
 # st.write(content)
 # st.write(type(content))
