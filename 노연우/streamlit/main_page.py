@@ -52,7 +52,7 @@ placeholder = st.empty()
 df = df[df["job"] == job_filter]
 
 # near real-time / live feed simulation
-for seconds in range(200):
+for seconds in range(20):
 
     df["age_new"] = df["age"] * np.random.choice(range(1, 5))
     df["balance_new"] = df["balance"] * np.random.choice(range(1, 5))
@@ -102,7 +102,11 @@ for seconds in range(200):
             
         with fig_col2:
             st.markdown("### Second Chart")
-            fig2 = px.histogram(data_frame=df, x="age_new")
+            df = px.data.gapminder()
+            fig2 = px.bar(df, x="continent", y="pop", color="continent",
+            animation_frame="year", animation_group="country", range_y=[0,4000000000])
+            #fig2.show()
+
             st.write(fig2)
 
         st.markdown("### Detailed Data View")
