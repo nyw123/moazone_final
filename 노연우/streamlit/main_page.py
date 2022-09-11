@@ -23,28 +23,26 @@ import pandas as pd  # read csv, df manipulation
 import plotly.express as px  # interactive charts
 import streamlit as st  # 🎈 data web app development
 import psycopg2
+import s3fs
+import os
 
-# Initialize connection.
-# Uses st.experimental_singleton to only run once.
-@st.experimental_singleton
-def init_connection():
-    return psycopg2.connect(**st.secrets["postgres"])
+# Create connection object.
+# `anon=False` means not anonymous, i.e. it uses access keys to pull data.
+fs = s3fs.S3FileSystem(anon=False)
 
-conn = init_connection()
-
-# Perform query.
+# Retrieve file contents.
 # Uses st.experimental_memo to only rerun when the query changes or after 10 min.
 @st.experimental_memo(ttl=600)
-def run_query(query):
-    with conn.cursor() as cur:
-        cur.execute(query)
-        return cur.fetchall()
+def read_file(filename):
+    with fs.open(filename) as f:
+        return f.read().decode("utf-8")
 
-rows = run_query("SELECT * from mytable;")
+content = read_file("card-s3/upload/gcp.csv")
 
 # Print results.
-for row in rows:
-    st.write(f"{row[0]} has a :{row[1]}:")
+for line in content.strip().split("\n"):
+    st.write(f"{line}")
+    break()
 
 
 
