@@ -42,7 +42,7 @@ content = read_file("card-s3/upload/gcp.csv")
 # Print results.
 for line in content.strip().split("\n"):
     st.write(f"{line}")
-    break()
+    break
 
 
 
