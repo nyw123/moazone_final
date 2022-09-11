@@ -38,8 +38,10 @@ def read_file(filename):
         return f.read().decode("utf-8")
 
 content = read_file("card-s3/upload/gcp.csv")
-st.write(content)
-st.write(type(content))
+my_dataframe = pd.DataFrame(content)
+st.dataframe(my_dataframe)
+# st.write(content)
+# st.write(type(content))
 
 
 # i = 0
