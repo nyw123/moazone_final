@@ -29,8 +29,8 @@ import os
 # Create connection object.
 # `anon=False` means not anonymous, i.e. it uses access keys to pull data.
 fs = s3fs.S3FileSystem(anon=False)
-key = 'path\to\your-csv.csv'
-bucket = 'your-bucket-name'
+key = 'upload/gcp.csv'
+bucket = 'card-s3'
 
 
 df = pd.read_csv(fs.open(f'{bucket}/{key}', mode='rb'))
