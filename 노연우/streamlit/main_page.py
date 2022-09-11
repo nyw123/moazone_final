@@ -26,19 +26,8 @@ import psycopg2
 import s3fs
 import os
 
-# Create connection object.
-# `anon=False` means not anonymous, i.e. it uses access keys to pull data.
-fs = s3fs.S3FileSystem(anon=False)
 
-# Retrieve file contents.
-# Uses st.experimental_memo to only rerun when the query changes or after 10 min.
-@st.experimental_memo(ttl=600)
-def read_file(filename):
-    with fs.open(filename) as f:
-        return f.read().decode("utf-8")
-
-content = read_file("card-s3/upload/gcp.csv")
-my_dataframe = pd.DataFrame(content)
+my_dataframe = pd.read_csv('https://card-s3.s3.ap-northeast-2.amazonaws.com/upload/gcp.csv')
 st.dataframe(my_dataframe)
 # st.write(content)
 # st.write(type(content))
