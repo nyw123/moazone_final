@@ -36,7 +36,7 @@ st.set_page_config(
 fs = s3fs.S3FileSystem(anon=False)
 @st.experimental_memo(ttl=600)
 def read_file(filename):
-    df = pd.read_csv(fs.open(f'{filename}', mode='rb'))
+    df = pd.read_csv(fs.open(f'{filename}', mode='rb', index_col = 0))
     return df
 
 df = read_file('card-s3/upload/gcp.csv')
@@ -92,7 +92,7 @@ for seconds in range(20):
             
         with fig_col2:
             st.markdown("### Second Chart")
-            fig2 = px.bar(df, x="car", y="income_total")
+            fig2 = px.bar(df, x="car", y="income_total"s)
             #animation_frame="year", animation_group="country", range_y=[0,4000000000])
             #fig2.show()
 
