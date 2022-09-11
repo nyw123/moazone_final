@@ -38,11 +38,13 @@ def read_file(filename):
         return f.read().decode("utf-8")
 
 content = read_file("card-s3/upload/gcp.csv")
-
+i = 0
 # Print results.
 for line in content.strip().split("\n"):
-    st.write(f"{line}")
-    break
+    st.write(line)
+    i = i+1
+    if i>10:
+        break
 
 
 
