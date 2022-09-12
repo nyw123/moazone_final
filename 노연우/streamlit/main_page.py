@@ -52,11 +52,11 @@ job_filter = st.selectbox("Select the Job", pd.unique(df["occyp_type"]))
 placeholder = st.empty()
 
 # dataframe filter
-df = df[df["occyp_type"] == job_filter]
+#df = df[df["occyp_type"] == job_filter]
 
 # near real-time / live feed simulation
 for seconds in job_filter:
-
+    df = df[df["occyp_type"] == job_filter]
     with placeholder.container():
 
         # create three columns
