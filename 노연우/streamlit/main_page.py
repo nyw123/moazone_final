@@ -86,13 +86,14 @@ for seconds in range(1):
         with fig_col1:
             st.markdown("### First Chart")
             fig = px.density_heatmap(
-                data_frame=df, y="gender", x="car"
+                data_frame=df, y="label", x="income_type"
+                , marginal_x='histogram', marginal_y='histogram'
             )
             st.write(fig)
             
         with fig_col2:
             st.markdown("### Second Chart")
-            fig2 = px.bar(df, x="car", y="income_total")
+            fig2 = px.bar(df, x="occyp_type", y="income_total")
             #animation_frame="year", animation_group="country", range_y=[0,4000000000])
             #fig2.show()
 
