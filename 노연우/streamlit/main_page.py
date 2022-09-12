@@ -93,7 +93,7 @@ for seconds in range(1):
             
         with fig_col2:
             st.markdown("### Second Chart")
-            fig2 = px.bar(df, x="occyp_type", y="income_total")
+            fig2 = px.bar(df, x="edu_type", y="income_total")
             #animation_frame="year", animation_group="country", range_y=[0,4000000000])
             #fig2.show()
 
