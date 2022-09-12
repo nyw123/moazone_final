@@ -82,22 +82,22 @@ for seconds in pd.unique(df["occyp_type"]):
         )
 
         # create two columns for charts
-        fig_col1, fig_col2 = st.columns(2)
-        with fig_col1:
-            st.markdown("### First Chart")
-            fig = px.density_heatmap(
-                data_frame=df, y="income_total", x="income_type", 
-                marginal_x='histogram', marginal_y='histogram'
-            )
-            st.write(fig)
+        # fig_col1, fig_col2 = st.columns(2)
+        # with fig_col1:
+        #     st.markdown("### First Chart")
+        #     fig = px.density_heatmap(
+        #         data_frame=df, y="income_total", x="income_type", 
+        #         marginal_x='histogram', marginal_y='histogram'
+        #     )
+        #     st.write(fig)
             
-        with fig_col2:
-            st.markdown("### Second Chart")
-            fig2 = px.bar(df, x="edu_type", y="income_total")
-            #animation_frame="year", animation_group="country", range_y=[0,4000000000])
-            #fig2.show()
+        # with fig_col2:
+        #     st.markdown("### Second Chart")
+        #     fig2 = px.bar(df, x="edu_type", y="income_total")
+        #     #animation_frame="year", animation_group="country", range_y=[0,4000000000])
+        #     #fig2.show()
 
-            st.write(fig2)
+        #     st.write(fig2)
 
         st.markdown("### Detailed Data View")
         st.dataframe(df)
