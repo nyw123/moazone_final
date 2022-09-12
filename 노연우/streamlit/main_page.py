@@ -101,6 +101,6 @@ for seconds in pd.unique(df["occyp_type"]):
 
         st.markdown("### Detailed Data View")
         st.dataframe(df)
-
+        time.sleep(3)
 
 #st.dataframe(df)
