@@ -41,7 +41,7 @@ def read_file(filename):
 
 df = read_file('card-s3/upload/gcp.csv')
 df.fillna('Nan',inplace=True)
-
+df = df.iloc[:,1:]
 # dashboard title
 st.title("Real-Time / Live Data Science Dashboard")
 
