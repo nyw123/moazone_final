@@ -52,55 +52,54 @@ job_filter = st.selectbox("Select the Job", pd.unique(df["occyp_type"]))
 placeholder = st.empty()
 
 # dataframe filter
-#df = df[df["occyp_type"] == job_filter]
+df = df[df["occyp_type"] == job_filter]
 
 # near real-time / live feed simulation
-for seconds in pd.unique(df["occyp_type"]):
-    df = df[df["occyp_type"] == seconds]
-    with placeholder.container():
+# for seconds in pd.unique(df["occyp_type"]):
+with placeholder.container():
 
-        # create three columns
-        kpi1, kpi2, kpi3 = st.columns(3)
+    # create three columns
+    kpi1, kpi2, kpi3 = st.columns(3)
 
-        # fill in those three columns with respective metrics or KPIs
-        kpi1.metric(
-            label="Accuracy",
-            value=0.6921,
-            delta= 0.005,
+    # fill in those three columns with respective metrics or KPIs
+    kpi1.metric(
+        label="Accuracy",
+        value=0.6921,
+        delta= 0.005,
+    )
+    
+    kpi2.metric(
+        label="F1-score",
+        value=0.6553,
+        delta=-0.012,
+    )
+    
+    kpi3.metric(
+        label="New Data",
+        value=39424,
+        delta=130,
+    )
+
+    # create two columns for charts
+    fig_col1, fig_col2 = st.columns(2)
+    with fig_col1:
+        st.markdown("### First Chart")
+        fig = px.density_heatmap(
+            data_frame=df, y="income_total", x="income_type", 
+            marginal_x='histogram', marginal_y='histogram'
         )
+        st.write(fig)
         
-        kpi2.metric(
-            label="F1-score",
-            value=0.6553,
-            delta=-0.012,
-        )
-        
-        kpi3.metric(
-            label="New Data",
-            value=39424,
-            delta=130,
-        )
+    with fig_col2:
+        st.markdown("### Second Chart")
+        fig2 = px.bar(df, x="edu_type", y="income_total")
+        #animation_frame="year", animation_group="country", range_y=[0,4000000000])
+        #fig2.show()
 
-        # create two columns for charts
-        # fig_col1, fig_col2 = st.columns(2)
-        # with fig_col1:
-        #     st.markdown("### First Chart")
-        #     fig = px.density_heatmap(
-        #         data_frame=df, y="income_total", x="income_type", 
-        #         marginal_x='histogram', marginal_y='histogram'
-        #     )
-        #     st.write(fig)
-            
-        # with fig_col2:
-        #     st.markdown("### Second Chart")
-        #     fig2 = px.bar(df, x="edu_type", y="income_total")
-        #     #animation_frame="year", animation_group="country", range_y=[0,4000000000])
-        #     #fig2.show()
+        st.write(fig2)
 
-        #     st.write(fig2)
-
-        st.markdown("### Detailed Data View")
-        st.dataframe(df)
-        time.sleep(3)
+    st.markdown("### Detailed Data View")
+    st.dataframe(df)
+    time.sleep(3)
 
 #st.dataframe(df)
