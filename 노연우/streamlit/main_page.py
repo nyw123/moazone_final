@@ -55,7 +55,7 @@ placeholder = st.empty()
 df = df[df["occyp_type"] == job_filter]
 
 # near real-time / live feed simulation
-for seconds in range(1):
+for seconds in job_filter:
 
     with placeholder.container():
 
