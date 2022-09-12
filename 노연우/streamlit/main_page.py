@@ -40,7 +40,7 @@ def read_file(filename):
     return df
 
 df = read_file('card-s3/upload/gcp.csv')
-
+df.fillna('Nan',inplace=True)
 
 # dashboard title
 st.title("Real-Time / Live Data Science Dashboard")
@@ -55,7 +55,7 @@ placeholder = st.empty()
 df = df[df["occyp_type"] == job_filter]
 
 # near real-time / live feed simulation
-for seconds in range(20):
+for seconds in range(1):
 
     with placeholder.container():
 
@@ -100,7 +100,6 @@ for seconds in range(20):
 
         st.markdown("### Detailed Data View")
         st.dataframe(df)
-        time.sleep(1)
 
 
 #st.dataframe(df)
