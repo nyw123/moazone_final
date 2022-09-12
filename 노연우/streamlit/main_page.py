@@ -55,8 +55,8 @@ placeholder = st.empty()
 #df = df[df["occyp_type"] == job_filter]
 
 # near real-time / live feed simulation
-for seconds in job_filter:
-    df = df[df["occyp_type"] == job_filter]
+for seconds in pd.unique(df["occyp_type"]):
+    df = df[df["occyp_type"] == seconds]
     with placeholder.container():
 
         # create three columns
