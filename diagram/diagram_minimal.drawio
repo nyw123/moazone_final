@@ -1,4 +1,4 @@
-<mxfile modified="2022-09-13T02:52:46.689Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="HVRWYsDyIsIPqrOphKRr" version="20.3.0" type="github" pages="4">
+<mxfile modified="2022-09-13T02:54:18.613Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="XCVG1nu3B6FO8hrGKTR8" version="20.3.0" type="github" pages="4">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole">
     <mxGraphModel dx="481" dy="887" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -704,7 +704,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sYFJNi-y6UXm_xLsWviz" name="Backend_Auth">
-    <mxGraphModel dx="1113" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="823" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -719,10 +719,10 @@
         <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-18" value="User" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/business-startup-10/50/72-128.png;shadow=1;glass=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="65" y="261" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-19" value="Login" style="endArrow=classic;html=1;rounded=0;targetPerimeterSpacing=0;endSize=5;" edge="1" parent="1" source="huuZ2qgnfoz-UNy-Z8Zu-18" target="huuZ2qgnfoz-UNy-Z8Zu-23">
+        <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-19" value="Login" style="endArrow=classic;html=1;rounded=0;targetPerimeterSpacing=0;endSize=5;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="113" y="290" as="sourcePoint" />
-            <mxPoint x="220" y="290" as="targetPoint" />
+            <mxPoint x="115" y="273.8417721518987" as="sourcePoint" />
+            <mxPoint x="223" y="273.1582278481013" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-28" value="인증 챌린지 정의" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=5;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;spacingLeft=90;" edge="1" parent="1">
@@ -734,8 +734,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-35" value="인증 챌린지 생성" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endSize=5;targetPerimeterSpacing=30;" edge="1" parent="1" source="huuZ2qgnfoz-UNy-Z8Zu-23" target="huuZ2qgnfoz-UNy-Z8Zu-30">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-35" value="인증 챌린지 생성" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endSize=5;targetPerimeterSpacing=30;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="273" y="273" as="sourcePoint" />
+            <mxPoint x="400" y="273" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-23" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Congnito&lt;/span&gt;" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cognito;rounded=0;shadow=1;glass=0;comic=0;fillStyle=auto;strokeWidth=1;fontFamily=Helvetica;" vertex="1" parent="1">
           <mxGeometry x="223" y="260" width="50" height="50" as="geometry" />
@@ -751,6 +754,18 @@
         </mxCell>
         <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-36" value="SES" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://prismatic.io/docs/assets/images/icon-a4cd782d87072e824fe273a075ed6e0c.png;spacingTop=-5;" vertex="1" parent="1">
           <mxGeometry x="395" y="390" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-41" value="Auth" style="endArrow=classic;html=1;rounded=0;targetPerimeterSpacing=0;endSize=5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="116" y="295.8417721518987" as="sourcePoint" />
+            <mxPoint x="224" y="295.15822784810143" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-42" value="인증 챌린지 응답 확인" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endSize=5;targetPerimeterSpacing=30;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="273" y="296" as="sourcePoint" />
+            <mxPoint x="400" y="296" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
