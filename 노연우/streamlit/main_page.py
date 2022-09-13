@@ -80,8 +80,8 @@ with placeholder.container():
         delta=130,
     )
 
-    # create two columns for charts
     fig_col1, fig_col2 = st.columns(2)
+
     with fig_col1:
         st.markdown("### First Chart")
         fig = px.density_heatmap(
@@ -90,16 +90,12 @@ with placeholder.container():
         )
         st.write(fig)
         
-    with fig_col2:
-        st.markdown("### Second Chart")
-        fig2 = px.bar(df, x="edu_type", y="income_total")
-        #animation_frame="year", animation_group="country", range_y=[0,4000000000])
-        #fig2.show()
+    # with fig_col2:
+    #     st.markdown("### Second Chart")
+    #     fig2 = px.bar(df, x="edu_type", y="income_total")
 
-        st.write(fig2)
+    #     st.write(fig2)
 
-    st.markdown("### Detailed Data View")
+    # st.markdown("### Detailed Data View")
+
     st.dataframe(df)
-    time.sleep(3)
-
-#st.dataframe(df)
