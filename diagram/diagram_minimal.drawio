@@ -1,4 +1,4 @@
-<mxfile modified="2022-09-13T03:04:35.940Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="nQnVbiOi-Zv83vsYXAP-" version="20.3.0" type="github" pages="4">
+<mxfile modified="2022-09-13T03:05:03.532Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="AZr51mikERFsW5s_WNHO" version="20.3.0" type="github" pages="4">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole">
     <mxGraphModel dx="481" dy="887" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -704,11 +704,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sYFJNi-y6UXm_xLsWviz" name="Backend_Auth">
-    <mxGraphModel dx="1455" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="860" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=1;targetPerimeterSpacing=30;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;strokeColor=#7EA6E0;strokeWidth=2;" edge="1" parent="1" source="huuZ2qgnfoz-UNy-Z8Zu-36" target="huuZ2qgnfoz-UNy-Z8Zu-18">
+        <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-40" value="&lt;div style=&quot;&quot;&gt;인증 코드 확인&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=1;targetPerimeterSpacing=30;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;strokeColor=#7EA6E0;strokeWidth=2;align=left;" edge="1" parent="1" source="huuZ2qgnfoz-UNy-Z8Zu-36" target="huuZ2qgnfoz-UNy-Z8Zu-18">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="80" y="330" as="targetPoint" />
             <Array as="points">
