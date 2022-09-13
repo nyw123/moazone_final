@@ -1,4 +1,4 @@
-<mxfile modified="2022-09-13T03:05:24.998Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="sFafWjQxMxoZVzqGU2ID" version="20.3.0" type="github" pages="4">
+<mxfile modified="2022-09-13T03:05:36.197Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="QLWzEvM6jQSJA5HNxmk8" version="20.3.0" type="github" pages="4">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole">
     <mxGraphModel dx="481" dy="887" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -708,7 +708,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-40" value="&lt;div style=&quot;&quot;&gt;인증 코드 확인&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=1;targetPerimeterSpacing=30;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;strokeColor=#97D077;strokeWidth=2;align=left;" edge="1" parent="1" source="huuZ2qgnfoz-UNy-Z8Zu-36" target="huuZ2qgnfoz-UNy-Z8Zu-18">
+        <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-40" value="&lt;div style=&quot;&quot;&gt;인증 코드 확인&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=1;targetPerimeterSpacing=30;entryX=0.5;entryY=1;entryDx=0;entryDy=0;flowAnimation=1;strokeColor=#F19C99;strokeWidth=2;align=left;" edge="1" parent="1" source="huuZ2qgnfoz-UNy-Z8Zu-36" target="huuZ2qgnfoz-UNy-Z8Zu-18">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="80" y="330" as="targetPoint" />
             <Array as="points">
@@ -746,7 +746,7 @@
         <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-26" value="" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;rounded=0;shadow=1;glass=0;comic=0;fillStyle=auto;strokeWidth=1;fontFamily=Helvetica;labelPosition=right;spacingLeft=10;" vertex="1" parent="1">
           <mxGeometry x="400" y="180" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-37" value="인증 코드 이메일 전송" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endSize=1;targetPerimeterSpacing=30;strokeColor=#97D077;strokeWidth=2;flowAnimation=1;" edge="1" parent="1" source="huuZ2qgnfoz-UNy-Z8Zu-30" target="huuZ2qgnfoz-UNy-Z8Zu-36">
+        <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-37" value="인증 코드 이메일 전송" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endSize=1;targetPerimeterSpacing=30;strokeColor=#F19C99;strokeWidth=2;flowAnimation=1;" edge="1" parent="1" source="huuZ2qgnfoz-UNy-Z8Zu-30" target="huuZ2qgnfoz-UNy-Z8Zu-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-30" value="" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;rounded=0;shadow=1;glass=0;comic=0;fillStyle=auto;strokeWidth=1;fontFamily=Helvetica;labelPosition=right;spacingLeft=10;" vertex="1" parent="1">
