@@ -90,12 +90,12 @@ with placeholder.container():
         )
         st.write(fig)
         
-    # with fig_col2:
-    #     st.markdown("### Second Chart")
-    #     fig2 = px.bar(df, x="edu_type", y="income_total")
+    with fig_col2:
+        st.markdown("### Second Chart")
+        fig2 = px.bar(df, x="edu_type", y="income_total")
 
-    #     st.write(fig2)
+        st.write(fig2)
 
-    # st.markdown("### Detailed Data View")
+    st.markdown("### Detailed Data View")
 
     st.dataframe(df)
