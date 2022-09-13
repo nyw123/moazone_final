@@ -1,4 +1,4 @@
-<mxfile modified="2022-09-13T02:25:08.694Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="vM0k2BLMx-Iuifgi-87H" version="20.3.0" type="github" pages="4">
+<mxfile modified="2022-09-13T02:48:38.561Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="UQYgANYw-lrf0bDJsAfo" version="20.3.0" type="github" pages="4">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole">
     <mxGraphModel dx="481" dy="887" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -704,63 +704,45 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sYFJNi-y6UXm_xLsWviz" name="Backend_Auth">
-    <mxGraphModel dx="1113" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="526" dy="345" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Fgqjz9RtD9V7qTZukqwN-1" value="Congnito" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cognito;rounded=0;shadow=1;glass=0;comic=0;fillStyle=auto;strokeWidth=1;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="280" y="172" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-3" value="" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;rounded=0;shadow=1;glass=0;comic=0;fillStyle=auto;strokeWidth=1;fontFamily=Helvetica;labelPosition=right;spacingLeft=10;" vertex="1" parent="1">
-          <mxGeometry x="457" y="172" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-14" value="Admin" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/business-startup-10/50/76-128.png;shadow=1;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="107" y="174" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-15" value="&amp;nbsp;Create User&amp;nbsp;" style="endArrow=classic;html=1;rounded=0;targetPerimeterSpacing=0;endSize=5;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="200" as="sourcePoint" />
-            <mxPoint x="270" y="200" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-16" value="사전 가입 트리거" style="endArrow=classic;html=1;rounded=0;targetPerimeterSpacing=0;endSize=5;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340" y="202" as="sourcePoint" />
-            <mxPoint x="450" y="202" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-18" value="User" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/business-startup-10/50/72-128.png;shadow=1;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="107" y="259" width="50" height="50" as="geometry" />
+          <mxGeometry x="50" y="259" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-19" value="Login" style="endArrow=classic;html=1;rounded=0;targetPerimeterSpacing=0;endSize=5;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="290" as="sourcePoint" />
-            <mxPoint x="270" y="290" as="targetPoint" />
+            <mxPoint x="113" y="290" as="sourcePoint" />
+            <mxPoint x="213" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-28" value="인증 챌린지 정의" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=5;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;spacingLeft=90;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="456" y="375" as="targetPoint" />
-            <mxPoint x="304" y="310" as="sourcePoint" />
+            <mxPoint x="399" y="200" as="targetPoint" />
+            <mxPoint x="247" y="265" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="304" y="375" />
+              <mxPoint x="247" y="200" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-23" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Congnito&lt;/span&gt;" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cognito;rounded=0;shadow=1;glass=0;comic=0;fillStyle=auto;strokeWidth=1;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="280" y="260" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-24" value="" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;rounded=0;shadow=1;glass=0;comic=0;fillStyle=auto;strokeWidth=1;fontFamily=Helvetica;labelPosition=right;spacingLeft=10;" vertex="1" parent="1">
-          <mxGeometry x="457" y="260" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-25" value="사전 인증&amp;nbsp;트리거" style="endArrow=classic;html=1;rounded=0;targetPerimeterSpacing=0;endSize=5;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340" y="289" as="sourcePoint" />
-            <mxPoint x="450" y="289" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="223" y="260" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-26" value="" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;rounded=0;shadow=1;glass=0;comic=0;fillStyle=auto;strokeWidth=1;fontFamily=Helvetica;labelPosition=right;spacingLeft=10;" vertex="1" parent="1">
-          <mxGeometry x="457" y="350" width="50" height="50" as="geometry" />
+          <mxGeometry x="400" y="180" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-30" value="" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;rounded=0;shadow=1;glass=0;comic=0;fillStyle=auto;strokeWidth=1;fontFamily=Helvetica;labelPosition=right;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="400" y="370" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-34" value="인증 챌린지 생성" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=5;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;spacingLeft=90;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="397.5" as="targetPoint" />
+            <mxPoint x="247.99999999999977" y="332.5" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="248" y="397.5" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
