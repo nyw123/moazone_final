@@ -1,4 +1,4 @@
-<mxfile modified="2022-09-13T02:54:18.613Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="XCVG1nu3B6FO8hrGKTR8" version="20.3.0" type="github" pages="4">
+<mxfile modified="2022-09-13T02:55:20.135Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="aTvUPzZiIHXrmj70JVDo" version="20.3.0" type="github" pages="4">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole">
     <mxGraphModel dx="481" dy="887" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -725,7 +725,7 @@
             <mxPoint x="223" y="273.1582278481013" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-28" value="인증 챌린지 정의" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=5;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;spacingLeft=90;" edge="1" parent="1">
+        <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-28" value="인증 챌린지 정의" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=5;targetPerimeterSpacing=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;spacingLeft=70;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="399" y="200" as="targetPoint" />
             <mxPoint x="247" y="265" as="sourcePoint" />
@@ -734,7 +734,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-35" value="인증 챌린지 생성" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endSize=5;targetPerimeterSpacing=30;" edge="1" parent="1">
+        <mxCell id="huuZ2qgnfoz-UNy-Z8Zu-35" value="인증 챌린지 생성" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endSize=5;targetPerimeterSpacing=30;spacingLeft=-22;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="273" y="273" as="sourcePoint" />
             <mxPoint x="400" y="273" as="targetPoint" />
