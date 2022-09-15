@@ -1,4 +1,4 @@
-<mxfile modified="2022-09-15T06:44:27.133Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="jjpU35CvGEwzNy5KtbaE" version="20.3.0" type="github" pages="7">
+<mxfile modified="2022-09-15T06:45:48.914Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="-1eWZsCeSwFfviDN1A5M" version="20.3.0" type="github" pages="7">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole">
     <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -1239,7 +1239,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vTXcy3Fh1K3QeEhuFA_o" name="페이지-7">
-    <mxGraphModel dx="487" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="417" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1258,6 +1258,9 @@
         <mxCell id="Uz45V-1SvSDzQr_AAS_H-11" value="&lt;font color=&quot;#ffffff&quot;&gt;Data&lt;br&gt;Cleaning&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#248AFF;gradientColor=#616363;" vertex="1" parent="1">
           <mxGeometry x="290" y="248" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="Uz45V-1SvSDzQr_AAS_H-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=10;fontColor=#FFFFFF;startArrow=classic;startFill=1;" edge="1" parent="1" source="Uz45V-1SvSDzQr_AAS_H-13" target="Uz45V-1SvSDzQr_AAS_H-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Uz45V-1SvSDzQr_AAS_H-13" value="&lt;font color=&quot;#ffffff&quot;&gt;Feature&lt;br&gt;Selection&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#248AFF;gradientColor=#616363;" vertex="1" parent="1">
           <mxGeometry x="360" y="180" width="80" height="80" as="geometry" />
         </mxCell>
@@ -1274,6 +1277,21 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="308" as="sourcePoint" />
             <mxPoint x="380" y="328" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uz45V-1SvSDzQr_AAS_H-19" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Model&lt;br&gt;Selection&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#248AFF;gradientColor=#616363;" vertex="1" parent="1">
+          <mxGeometry x="434" y="246" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Uz45V-1SvSDzQr_AAS_H-20" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Uz45V-1SvSDzQr_AAS_H-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="240" as="sourcePoint" />
+            <mxPoint x="448.494623655914" y="264.505376344086" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uz45V-1SvSDzQr_AAS_H-21" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424" y="336" as="sourcePoint" />
+            <mxPoint x="454" y="306" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
