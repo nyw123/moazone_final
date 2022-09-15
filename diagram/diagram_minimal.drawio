@@ -1,4 +1,4 @@
-<mxfile modified="2022-09-15T08:22:50.261Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="aGdEMtRlVetu4vI1Znyq" version="20.3.0" type="github" pages="9">
+<mxfile modified="2022-09-15T08:23:09.984Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="VQIBbJGAmBBX4mXfAYyr" version="20.3.0" type="github" pages="9">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole">
     <mxGraphModel dx="1892" dy="1128" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -1989,16 +1989,10 @@
         <mxCell id="jaJrETvQg1-iqk4jc7zG-19" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://rastalion.me/wp-content/uploads/2019/04/Esxi-Logo-300x300.png;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="260.83" y="773.5" width="49" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="jaJrETvQg1-iqk4jc7zG-21" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=0;flipH=1;shadow=0;glass=0;comic=0;strokeColor=#67AB9F;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="411" y="286" width="20" height="360" as="geometry" />
-        </mxCell>
         <mxCell id="jaJrETvQg1-iqk4jc7zG-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4A98FF;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#009999;startArrow=none;startFill=0;endArrow=none;endFill=0;flowAnimation=1;" edge="1" parent="1" target="jaJrETvQg1-iqk4jc7zG-40">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="570.75" y="920.4533333333334" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="jaJrETvQg1-iqk4jc7zG-33" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=0;flipH=1;shadow=0;glass=0;comic=0;strokeColor=#67AB9F;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="410.5" y="753" width="16.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="jaJrETvQg1-iqk4jc7zG-34" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/icons-for-a-site-1/64/advantage_payment_way-128.png;rounded=0;shadow=0;glass=0;comic=0;fillStyle=auto;strokeColor=#FF8000;strokeWidth=0;fontFamily=Helvetica;fontColor=#FF8000;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="91" y="196" width="29" height="29" as="geometry" />
