@@ -1,4 +1,4 @@
-<mxfile modified="2022-09-17T14:06:53.090Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="aY6vIFsUsmF0E_0T1X9v" version="20.3.1" type="github" pages="9">
+<mxfile modified="2022-09-17T14:07:04.569Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="nNA16gymhaUjxgUQmHqK" version="20.3.1" type="github" pages="9">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole">
     <mxGraphModel dx="2365" dy="1410" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -1951,17 +1951,14 @@
         <mxCell id="mv134wfNZll0k0aDisDw-7" value="Client" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.company_user;labelBackgroundColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="1072.8" y="860" width="44.4" height="48.8" as="geometry" />
         </mxCell>
-        <mxCell id="mv134wfNZll0k0aDisDw-15" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/css-vol-2/24/git-pull-128.png;rotation=-90;" parent="1" vertex="1">
-          <mxGeometry x="1170" y="471.2" width="38" height="38" as="geometry" />
-        </mxCell>
         <mxCell id="Dycl66mQbWXqttmDF8gz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="mv134wfNZll0k0aDisDw-5" target="mv134wfNZll0k0aDisDw-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mv134wfNZll0k0aDisDw-5" value="Streamlit&#xa;Cloud" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-images-1.medium.com/max/1024/1*u9U3YjxT9c9A1FIaDMonHw.png;clipPath=inset(22.07% 33.33% 47.77% 33.33%);" parent="1" vertex="1">
           <mxGeometry x="1060.74" y="750" width="68.52" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="Dycl66mQbWXqttmDF8gz-2" value="git" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/css-vol-2/24/git-pull-128.png;fontSize=12;align=center;spacingBottom=2;spacingRight=15;" vertex="1" parent="1">
-          <mxGeometry x="1083" y="568" width="38" height="38" as="geometry" />
+        <mxCell id="Dycl66mQbWXqttmDF8gz-2" value="git" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/css-vol-2/24/git-pull-128.png;fontSize=12;align=center;spacingBottom=2;spacingRight=12;" vertex="1" parent="1">
+          <mxGeometry x="1082" y="568" width="38" height="38" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
