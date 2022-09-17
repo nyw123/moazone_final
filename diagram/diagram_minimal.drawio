@@ -1,4 +1,4 @@
-<mxfile modified="2022-09-17T19:11:19.815Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="hYYAUH5mmbJTQ-YN_q1l" version="20.3.2" type="github" pages="10">
+<mxfile modified="2022-09-17T19:11:34.302Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="-Ai46pHXb8xXZcMWq-8J" version="20.3.2" type="github" pages="10">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole">
     <mxGraphModel dx="3153" dy="1880" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -2298,10 +2298,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EBvvwrA05Pqoy1yzjMcG" name="페이지-10">
-    <mxGraphModel dx="556" dy="332" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1113" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Iw_br3Nen5dZzroiKLtN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="Iw_br3Nen5dZzroiKLtN-1" target="Iw_br3Nen5dZzroiKLtN-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Iw_br3Nen5dZzroiKLtN-1" value="On-Premise" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_on_premise;strokeColor=#858B94;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#858B94;dashed=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="260" width="510" height="280" as="geometry" />
         </mxCell>
@@ -2336,7 +2339,7 @@
           <mxGeometry x="710" y="260" width="340" height="280" as="geometry" />
         </mxCell>
         <mxCell id="Iw_br3Nen5dZzroiKLtN-15" value="Storage Gateway Service" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.storage_gateway;" vertex="1" parent="1">
-          <mxGeometry x="760.0000000000001" y="373" width="50" height="50" as="geometry" />
+          <mxGeometry x="760.0000000000001" y="375" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Iw_br3Nen5dZzroiKLtN-16" value="EBS Snapshot" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-ssl-devio-img.classmethod.jp/wp-content/uploads/2019/05/amazon-ebs.png;clipPath=inset(26.58% 65% 27.22% 10.67%);" vertex="1" parent="1">
           <mxGeometry x="910" y="373" width="47" height="47" as="geometry" />
