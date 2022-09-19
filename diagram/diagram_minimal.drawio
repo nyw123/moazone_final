@@ -1,4 +1,4 @@
-<mxfile modified="2022-09-19T04:52:47.118Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="DcvtiC4NiC_QLZRqyIiW" version="20.3.2" type="github" pages="10">
+<mxfile modified="2022-09-19T04:53:01.672Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="mTGf49oxql24d4uXiqkf" version="20.3.2" type="github" pages="10">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole  public subnet 수정">
     <mxGraphModel dx="946" dy="564" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -1876,7 +1876,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vTXcy3Fh1K3QeEhuFA_o" name="auto ml">
-    <mxGraphModel dx="498" dy="297" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="901" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1972,12 +1972,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Uz45V-1SvSDzQr_AAS_H-42" value="Model&lt;br&gt;Valication&lt;br&gt;&amp;amp;&lt;br&gt;Expectation" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=none;fontFamily=Helvetica;fontSize=10;fontColor=#FFFFFF;fillColor=#EA6B66;" parent="Uz45V-1SvSDzQr_AAS_H-49" vertex="1">
-          <mxGeometry x="810" y="73" width="69" height="69" as="geometry" />
-        </mxCell>
-        <mxCell id="Uz45V-1SvSDzQr_AAS_H-43" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=10;fontColor=#FFFFFF;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="Uz45V-1SvSDzQr_AAS_H-49" target="Uz45V-1SvSDzQr_AAS_H-42" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="767" y="108" as="sourcePoint" />
-          </mxGeometry>
+          <mxGeometry x="687" y="74" width="69" height="69" as="geometry" />
         </mxCell>
         <mxCell id="Uz45V-1SvSDzQr_AAS_H-44" value="Data" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=none;gradientDirection=north;fillColor=#FFD966;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.database;labelBackgroundColor=none;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="60" y="577.5" width="70" height="70" as="geometry" />
