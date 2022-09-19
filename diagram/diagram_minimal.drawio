@@ -1,6 +1,6 @@
-<mxfile modified="2022-09-19T00:53:11.211Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="9fAml643duHHhkwIHS8i" version="20.3.2" type="github" pages="10">
+<mxfile modified="2022-09-19T00:53:44.103Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="holItBcKZLl_pn6Qkj_F" version="20.3.2" type="github" pages="10">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole  public subnet 수정">
-    <mxGraphModel dx="1720" dy="1025" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1455" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -559,7 +559,7 @@
           <mxGeometry x="1646" y="596" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tf8mtJ_9OFyWJ0ix8xhk-20" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Docker.svg;strokeColor=default;strokeWidth=0.2;fillColor=#FAFAFA;imageBackground=default;" vertex="1" parent="1">
-          <mxGeometry x="1351.96" y="505" width="51" height="41.82" as="geometry" />
+          <mxGeometry x="1350" y="481" width="51" height="41.82" as="geometry" />
         </mxCell>
         <mxCell id="tf8mtJ_9OFyWJ0ix8xhk-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#F19C99;strokeWidth=2;fontSize=12;fontColor=#000000;endArrow=none;endFill=0;startSize=6;endSize=6;flowAnimation=1;exitX=0.721;exitY=0.997;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WVheMoRhKIVzaEbbGEJG-367" target="tf8mtJ_9OFyWJ0ix8xhk-20">
           <mxGeometry relative="1" as="geometry">
