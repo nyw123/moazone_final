@@ -1,4 +1,4 @@
-<mxfile modified="2022-09-19T04:53:01.672Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="mTGf49oxql24d4uXiqkf" version="20.3.2" type="github" pages="10">
+<mxfile modified="2022-09-19T04:53:18.742Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="3JO3w_2t5JLuaXE7ssf_" version="20.3.2" type="github" pages="10">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole  public subnet 수정">
     <mxGraphModel dx="946" dy="564" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -1901,64 +1901,64 @@
           <mxGeometry x="60" y="180" width="879" height="347.5" as="geometry" />
         </mxCell>
         <mxCell id="Uz45V-1SvSDzQr_AAS_H-2" value="Data" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=none;gradientDirection=north;fillColor=#FFD966;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.database;labelBackgroundColor=none;fontFamily=Helvetica;" parent="Uz45V-1SvSDzQr_AAS_H-49" vertex="1">
-          <mxGeometry y="73" width="70" height="70" as="geometry" />
+          <mxGeometry x="61.5" y="73" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Uz45V-1SvSDzQr_AAS_H-3" value="&lt;font color=&quot;#ffffff&quot;&gt;Data&lt;br&gt;Split&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#7EA6E0;gradientColor=none;" parent="Uz45V-1SvSDzQr_AAS_H-49" vertex="1">
-          <mxGeometry x="120" y="68" width="80" height="80" as="geometry" />
+          <mxGeometry x="181.5" y="68" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Uz45V-1SvSDzQr_AAS_H-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;" parent="Uz45V-1SvSDzQr_AAS_H-49" source="Uz45V-1SvSDzQr_AAS_H-2" target="Uz45V-1SvSDzQr_AAS_H-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Uz45V-1SvSDzQr_AAS_H-11" value="&lt;font color=&quot;#ffffff&quot;&gt;Data&lt;br&gt;Cleaning&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#7EA6E0;gradientColor=none;" parent="Uz45V-1SvSDzQr_AAS_H-49" vertex="1">
-          <mxGeometry x="230" y="68" width="80" height="80" as="geometry" />
+          <mxGeometry x="291.5" y="68" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Uz45V-1SvSDzQr_AAS_H-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;" parent="Uz45V-1SvSDzQr_AAS_H-49" source="Uz45V-1SvSDzQr_AAS_H-3" target="Uz45V-1SvSDzQr_AAS_H-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Uz45V-1SvSDzQr_AAS_H-13" value="&lt;font color=&quot;#ffffff&quot;&gt;Feature&lt;br&gt;Selection&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#7EA6E0;gradientColor=none;" parent="Uz45V-1SvSDzQr_AAS_H-49" vertex="1">
-          <mxGeometry x="300" width="80" height="80" as="geometry" />
+          <mxGeometry x="361.5" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Uz45V-1SvSDzQr_AAS_H-15" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;" parent="Uz45V-1SvSDzQr_AAS_H-49" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="90" as="sourcePoint" />
-            <mxPoint x="320" y="60" as="targetPoint" />
+            <mxPoint x="351.5" y="90" as="sourcePoint" />
+            <mxPoint x="381.5" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Uz45V-1SvSDzQr_AAS_H-16" value="&lt;font style=&quot;font-size: 10px;&quot; color=&quot;#ffffff&quot;&gt;Feature&lt;br&gt;Engineering&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#7EA6E0;gradientColor=none;" parent="Uz45V-1SvSDzQr_AAS_H-49" vertex="1">
-          <mxGeometry x="300" y="131" width="80" height="80" as="geometry" />
+          <mxGeometry x="361.5" y="131" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Uz45V-1SvSDzQr_AAS_H-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=10;fontColor=#FFFFFF;startArrow=classic;startFill=1;" parent="Uz45V-1SvSDzQr_AAS_H-49" source="Uz45V-1SvSDzQr_AAS_H-13" target="Uz45V-1SvSDzQr_AAS_H-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Uz45V-1SvSDzQr_AAS_H-17" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;entryX=0.223;entryY=0.297;entryDx=0;entryDy=0;entryPerimeter=0;" parent="Uz45V-1SvSDzQr_AAS_H-49" target="Uz45V-1SvSDzQr_AAS_H-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="128" as="sourcePoint" />
-            <mxPoint x="320" y="148" as="targetPoint" />
+            <mxPoint x="351.5" y="128" as="sourcePoint" />
+            <mxPoint x="381.5" y="148" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Uz45V-1SvSDzQr_AAS_H-24" value="&lt;font color=&quot;#ffffff&quot;&gt;Feature&lt;br&gt;Selection&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#7EA6E0;gradientColor=none;" parent="Uz45V-1SvSDzQr_AAS_H-49" vertex="1">
-          <mxGeometry x="370" y="68" width="80" height="80" as="geometry" />
+          <mxGeometry x="431.5" y="68" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Uz45V-1SvSDzQr_AAS_H-26" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;entryX=0.244;entryY=0.719;entryDx=0;entryDy=0;entryPerimeter=0;" parent="Uz45V-1SvSDzQr_AAS_H-49" target="Uz45V-1SvSDzQr_AAS_H-24" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="361" y="153" as="sourcePoint" />
-            <mxPoint x="391" y="123" as="targetPoint" />
+            <mxPoint x="422.5" y="153" as="sourcePoint" />
+            <mxPoint x="452.5" y="123" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Uz45V-1SvSDzQr_AAS_H-27" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="Uz45V-1SvSDzQr_AAS_H-49" target="Uz45V-1SvSDzQr_AAS_H-24" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360" y="60" as="sourcePoint" />
-            <mxPoint x="387.84000000000003" y="86.75999999999999" as="targetPoint" />
+            <mxPoint x="421.5" y="60" as="sourcePoint" />
+            <mxPoint x="449.34000000000003" y="86.75999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Uz45V-1SvSDzQr_AAS_H-29" value="&lt;font color=&quot;#ffffff&quot;&gt;Model&lt;br&gt;Selection&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#7EA6E0;gradientColor=none;" parent="Uz45V-1SvSDzQr_AAS_H-49" vertex="1">
-          <mxGeometry x="480" y="68" width="80" height="80" as="geometry" />
+          <mxGeometry x="541.5" y="68" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Uz45V-1SvSDzQr_AAS_H-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=10;fontColor=#FFFFFF;startArrow=none;startFill=0;" parent="Uz45V-1SvSDzQr_AAS_H-49" source="Uz45V-1SvSDzQr_AAS_H-24" target="Uz45V-1SvSDzQr_AAS_H-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Uz45V-1SvSDzQr_AAS_H-33" value="&lt;font color=&quot;#ffffff&quot;&gt;Hyper-parameters&lt;br&gt;Tuning&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#7EA6E0;gradientColor=none;" parent="Uz45V-1SvSDzQr_AAS_H-49" vertex="1">
-          <mxGeometry x="580" y="68" width="80" height="80" as="geometry" />
+          <mxGeometry x="641.5" y="68" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Uz45V-1SvSDzQr_AAS_H-35" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=10;fontColor=#FFFFFF;startArrow=none;startFill=0;" parent="Uz45V-1SvSDzQr_AAS_H-49" source="Uz45V-1SvSDzQr_AAS_H-29" target="Uz45V-1SvSDzQr_AAS_H-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1968,11 +1968,11 @@
         </mxCell>
         <mxCell id="Uz45V-1SvSDzQr_AAS_H-40" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=10;fontColor=#FFFFFF;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="Uz45V-1SvSDzQr_AAS_H-49" source="Uz45V-1SvSDzQr_AAS_H-33" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="687" y="108" as="targetPoint" />
+            <mxPoint x="748.5" y="108" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Uz45V-1SvSDzQr_AAS_H-42" value="Model&lt;br&gt;Valication&lt;br&gt;&amp;amp;&lt;br&gt;Expectation" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=none;fontFamily=Helvetica;fontSize=10;fontColor=#FFFFFF;fillColor=#EA6B66;" parent="Uz45V-1SvSDzQr_AAS_H-49" vertex="1">
-          <mxGeometry x="687" y="74" width="69" height="69" as="geometry" />
+          <mxGeometry x="748.5" y="74" width="69" height="69" as="geometry" />
         </mxCell>
         <mxCell id="Uz45V-1SvSDzQr_AAS_H-44" value="Data" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=none;gradientDirection=north;fillColor=#FFD966;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.database;labelBackgroundColor=none;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="60" y="577.5" width="70" height="70" as="geometry" />
