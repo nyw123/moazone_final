@@ -1,6 +1,6 @@
-<mxfile modified="2022-09-19T00:52:28.030Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="kkzNScCCzJyzqgpDvfgJ" version="20.3.2" type="github" pages="10">
+<mxfile modified="2022-09-19T00:53:11.211Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="9fAml643duHHhkwIHS8i" version="20.3.2" type="github" pages="10">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole  public subnet 수정">
-    <mxGraphModel dx="610" dy="364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1720" dy="1025" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,8 +13,10 @@
         <mxCell id="tf8mtJ_9OFyWJ0ix8xhk-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#B266FF;strokeWidth=2;endArrow=block;endFill=0;flowAnimation=1;" edge="1" parent="1" source="tf8mtJ_9OFyWJ0ix8xhk-4" target="psejbBu-uA_KbHa82GHG-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tf8mtJ_9OFyWJ0ix8xhk-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#B266FF;strokeWidth=2;endArrow=block;endFill=0;flowAnimation=1;" edge="1" parent="1" source="tf8mtJ_9OFyWJ0ix8xhk-2" target="WVheMoRhKIVzaEbbGEJG-279">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="tf8mtJ_9OFyWJ0ix8xhk-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#B266FF;strokeWidth=2;endArrow=block;endFill=0;flowAnimation=1;" edge="1" parent="1" source="tf8mtJ_9OFyWJ0ix8xhk-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1455" y="870" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="vPDzNVmtebOjCJukUIUB-1" value="VPC" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;strokeColor=none;fillColor=#FaFaFa;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;shadow=1;fillStyle=solid;" parent="1" vertex="1">
           <mxGeometry x="658.07" y="206" width="323.93" height="172" as="geometry" />
