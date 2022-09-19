@@ -1,4 +1,4 @@
-<mxfile modified="2022-09-19T00:28:39.589Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="G-T3M_63m_SoI7xSz0M6" version="20.3.2" type="github" pages="10">
+<mxfile modified="2022-09-19T00:28:46.100Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="IrDddQgexpEC5bc1SclR" version="20.3.2" type="github" pages="10">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole  public subnet 수정">
     <mxGraphModel dx="996" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -367,7 +367,7 @@
         <mxCell id="WVheMoRhKIVzaEbbGEJG-376" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#F19C99;strokeWidth=2;fontSize=12;fontColor=#000000;endArrow=none;endFill=0;startSize=6;endSize=6;startArrow=block;startFill=0;flowAnimation=1;" parent="1" source="WVheMoRhKIVzaEbbGEJG-189" target="WVheMoRhKIVzaEbbGEJG-367" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1020" y="400" />
+              <mxPoint x="1020" y="420" />
             </Array>
           </mxGeometry>
         </mxCell>
