@@ -1,4 +1,4 @@
-<mxfile modified="2022-09-19T08:28:15.115Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="PewrbxHxg13d_9IYpdv5" version="20.3.2" type="github" pages="10">
+<mxfile modified="2022-09-19T08:28:44.415Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="4TWekCVO3HrpATrnPHj2" version="20.3.2" type="github" pages="10">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole  public subnet 수정">
     <mxGraphModel dx="2365" dy="1553" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -567,9 +567,6 @@
             <mxPoint x="1319" y="703.6199999999999" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="3mNXj5PP2E5sDHtsmQ2Z-4" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.code_file;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="339" width="47.5" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
