@@ -1,4 +1,4 @@
-<mxfile modified="2022-09-19T00:07:57.214Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="5WuiHdFE-KfG7kMPWLcZ" version="20.3.2" type="github" pages="11">
+<mxfile modified="2022-09-19T00:08:29.749Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="hLPMrKKsmcLMo5yi1XP9" version="20.3.2" type="github" pages="11">
   <diagram name="Whole" id="klQ6QtLuJl-8eL1u0h0D">
     <mxGraphModel dx="2365" dy="1553" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -546,7 +546,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole  public subnet 수정">
-    <mxGraphModel dx="860" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2365" dy="1553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -662,7 +662,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="457" y="473" />
-              <mxPoint x="457" y="259" />
+              <mxPoint x="457" y="288" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -671,11 +671,11 @@
         </mxCell>
         <mxCell id="WVheMoRhKIVzaEbbGEJG-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#67AB9F;strokeWidth=2;fontFamily=Helvetica;fontColor=#003366;startArrow=none;startFill=0;endArrow=block;endFill=0;flowAnimation=1;" parent="1" source="WVheMoRhKIVzaEbbGEJG-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="634.5" y="259.53999999999996" as="targetPoint" />
+            <mxPoint x="658.07" y="288.28999999999996" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WVheMoRhKIVzaEbbGEJG-1" value="Site To Site VPN" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.site_to_site_vpn;rounded=0;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="524.5" y="234.54000000000002" width="50" height="50" as="geometry" />
+          <mxGeometry x="548.07" y="263.29" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WVheMoRhKIVzaEbbGEJG-110" value="Private subnet" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#147EBA;fillColor=#FAFAFA;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=0;rounded=0;shadow=1;glass=0;comic=0;strokeWidth=0.2;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="677" y="233" width="130" height="130" as="geometry" />
