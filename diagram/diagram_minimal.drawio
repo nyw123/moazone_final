@@ -1,6 +1,6 @@
-<mxfile modified="2022-09-19T00:26:20.201Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="PlNVG6flLy4aduzSb5no" version="20.3.2" type="github" pages="10">
+<mxfile modified="2022-09-19T00:28:39.589Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="G-T3M_63m_SoI7xSz0M6" version="20.3.2" type="github" pages="10">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole  public subnet 수정">
-    <mxGraphModel dx="2365" dy="1410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="996" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -364,11 +364,10 @@
         <mxCell id="WVheMoRhKIVzaEbbGEJG-233" value="Cloudfront" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudfront;rounded=0;shadow=1;glass=0;comic=0;fillStyle=auto;strokeWidth=1;fontFamily=Helvetica;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="1540.03" y="214" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="WVheMoRhKIVzaEbbGEJG-376" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#F19C99;strokeWidth=2;fontSize=12;fontColor=#000000;endArrow=none;endFill=0;startSize=6;endSize=6;startArrow=block;startFill=0;flowAnimation=1;entryX=0;entryY=0.449;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="WVheMoRhKIVzaEbbGEJG-189" target="WVheMoRhKIVzaEbbGEJG-367" edge="1">
+        <mxCell id="WVheMoRhKIVzaEbbGEJG-376" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#F19C99;strokeWidth=2;fontSize=12;fontColor=#000000;endArrow=none;endFill=0;startSize=6;endSize=6;startArrow=block;startFill=0;flowAnimation=1;" parent="1" source="WVheMoRhKIVzaEbbGEJG-189" target="WVheMoRhKIVzaEbbGEJG-367" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1020" y="418" />
-              <mxPoint x="1308" y="418" />
+              <mxPoint x="1020" y="400" />
             </Array>
           </mxGeometry>
         </mxCell>
