@@ -1,4 +1,4 @@
-<mxfile modified="2022-09-20T00:51:09.081Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.122 Whale/3.16.138.27 Safari/537.36" etag="E76Sj62zRwF12yeFQhuE" version="20.3.3" type="github" pages="10">
+<mxfile modified="2022-09-20T00:52:27.838Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.122 Whale/3.16.138.27 Safari/537.36" etag="8eUpbxa_C1fkMGrZMTjS" version="20.3.3" type="github" pages="10">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Whole  public subnet 수정">
     <mxGraphModel dx="2023" dy="918" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -661,11 +661,12 @@
         <mxCell id="9lpcrVb9B5Lt3tHYMY0y-29" value="Bastion Host" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2;rounded=0;shadow=0;glass=0;comic=0;strokeWidth=2;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="2024.5" y="383" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="9lpcrVb9B5Lt3tHYMY0y-30" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#67AB9F;strokeWidth=2;fontFamily=Helvetica;flowAnimation=1;endArrow=block;endFill=0;" parent="1" source="9lpcrVb9B5Lt3tHYMY0y-32" target="9lpcrVb9B5Lt3tHYMY0y-8" edge="1">
+        <mxCell id="9lpcrVb9B5Lt3tHYMY0y-30" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#67AB9F;strokeWidth=2;fontFamily=Helvetica;flowAnimation=1;endArrow=block;endFill=0;" parent="1" source="9lpcrVb9B5Lt3tHYMY0y-32" target="9lpcrVb9B5Lt3tHYMY0y-89" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2070" y="568" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1723" y="706" />
+              <mxPoint x="1900" y="717" />
+              <mxPoint x="1900" y="556" />
             </Array>
           </mxGeometry>
         </mxCell>
