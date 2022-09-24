@@ -11,21 +11,18 @@
 # st.sidebar.markdown("# Main page 🎈")
 
 # col1, col2, col3 = st.columns(3)
-# col1.metric("Accuracy", "0.6878", "0.05")
-# col2.metric("F1-score", "0.5974", "-0.002")
-# col3.metric("Total Data", "31204", "New 403")
 
 
-import time  # to simulate a real time data, time loop
+import time  
 import pymysql
-import numpy as np  # np mean, np random
-import pandas as pd  # read csv, df manipulation
-import plotly.express as px  # interactive charts
-import streamlit as st  # 🎈 data web app development
+import numpy as np  
+import pandas as pd 
+import plotly.express as px  
+import streamlit as st 
 import psycopg2
 import s3fs
 import os
-
+import mysql.connector
 
 
 st.set_page_config(
@@ -34,6 +31,7 @@ st.set_page_config(
     layout="wide",
 )
 fs = s3fs.S3FileSystem(anon=False)
+
 @st.experimental_memo(ttl=600)
 def read_file(filename):
     df = pd.read_csv(fs.open(f'{filename}', mode='rb', index_col = 0))
@@ -54,9 +52,39 @@ placeholder = st.empty()
 # dataframe filter
 df = df[df["occyp_type"] == job_filter]
 
-# near real-time / live feed simulation
-# for seconds in pd.unique(df["occyp_type"]):
+@st.experimental_singleton
+def init_connection():
+    return mysql.connector.connect(**st.secrets["mysql"])
+
+conn = init_connection()
+
+
+@st.experimental_memo(ttl=600)
+def run_query(query):
+    with conn.cursor() as cur:
+        cur.execute(query)
+        return cur.fetchall()
+
+
 with placeholder.container():
+
+
+    rows = run_query("SELECT accuracy,f1 from metrics top 2;")
+
+    before = rows[0]
+    now  = rows[1]
+
+    before_acc, before_f1 = before[0] , before[1]
+    now_acc, now_f1 = now[0] , now[1]
+
+    acc_delta = now_acc - before_acc
+    f1_delta = now_f1 - before_f1
+
+    rows2 = run_query("SELECT count(*) from data;")
+    data_count = rows2[0]
+    rows3 = run_query("SELECT count(*) from new_data;")
+    new_data_count = rows3[0]
+
 
     # create three columns
     kpi1, kpi2, kpi3 = st.columns(3)
@@ -64,20 +92,20 @@ with placeholder.container():
     # fill in those three columns with respective metrics or KPIs
     kpi1.metric(
         label="Accuracy",
-        value=0.6921,
-        delta= 0.005,
+        value=now_acc,
+        delta= acc_delta,
     )
     
     kpi2.metric(
         label="F1-score",
-        value=0.6553,
-        delta=-0.012,
+        value=now_f1,
+        delta=f1_delta,
     )
     
     kpi3.metric(
         label="New Data",
-        value=39424,
-        delta=130,
+        value=data_count,
+        delta=new_data_count,
     )
 
     fig_col1, fig_col2 = st.columns(2)
